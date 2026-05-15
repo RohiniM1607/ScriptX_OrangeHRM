@@ -174,7 +174,7 @@
 						<allure.results.directory>
 							${project.build.directory}/allure-results</allure.results.directory>
 						<log4j.configurationFile>
-							src/test/resources/properties/log4j2.properties</log4j.configurationFile>
+							src/test/resources/log4j2.properties</log4j.configurationFile>
 					</systemPropertyVariables>
 				</configuration>
 			</plugin>
