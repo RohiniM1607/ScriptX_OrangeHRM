@@ -2,6 +2,8 @@ package com.pages;
 
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -9,20 +11,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class CreateUserCredentialsPage {
+import com.utilities.HelperClass;
 
-    WebDriver driver;
-    WebDriverWait wait;
+public class CreateUserCredentialsPage extends BasePage {
+
     Actions actions;
-
-    public CreateUserCredentialsPage(WebDriver driver) {
-        this.driver = driver;
-        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    
+    public CreateUserCredentialsPage() {
+        super();
         this.actions = new Actions(driver);
-        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//span[text()='Admin']")
@@ -59,50 +57,46 @@ public class CreateUserCredentialsPage {
     WebElement successToast;
 
     public void navigateToAdmin() {
-        wait.until(ExpectedConditions.elementToBeClickable(adminMenu)).click();
+        helper.clickElement(adminMenu);
     }
 
     public void clickAddBtn() {
-        wait.until(ExpectedConditions.elementToBeClickable(addBtn)).click();
+        helper.clickElement(addBtn);
     }
 
     public boolean isAddUserPageDisplayed() {
-        return wait.until(ExpectedConditions.visibilityOf(addUserTitle)).isDisplayed();
+        helper.waitForElement(addUserTitle);
+        return addUserTitle.isDisplayed();
     }
 
     public void pressDownAndEnter(int count) {
         for (int i = 0; i < count; i++) {
-            actions.sendKeys(Keys.ARROW_DOWN)
-                   .pause(Duration.ofSeconds(1));
+            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofSeconds(1));
         }
-
         actions.sendKeys(Keys.ENTER).perform();
     }
 
     public void selectUserRole(String role) {
-        wait.until(ExpectedConditions.elementToBeClickable(userRoleDropDown)).click();
+        helper.clickElement(userRoleDropDown);
 
         if (role.equalsIgnoreCase("Admin")) {
             pressDownAndEnter(1);
         } 
+        
         else if (role.equalsIgnoreCase("ESS")) {
             pressDownAndEnter(2);
         }
     }
 
     public void enterEmployeeName(String employeeName) {
-        wait.until(ExpectedConditions.elementToBeClickable(empName)).click();
+        helper.clickElement(empName);
         empName.sendKeys(employeeName);
-
-        wait.until(ExpectedConditions.visibilityOfElementLocated(
-            By.xpath("//div[@role='listbox']//span")
-        ));
-
+        helper.waitForElement(driver.findElement(By.xpath("//div[@role='listbox']//span")));
         pressDownAndEnter(1);
     }
 
     public void selectStatus(String status) {
-        wait.until(ExpectedConditions.elementToBeClickable(statusDropDown)).click();
+        helper.clickElement(statusDropDown);
 
         if (status.equalsIgnoreCase("Enabled")) {
             pressDownAndEnter(1);
@@ -113,22 +107,24 @@ public class CreateUserCredentialsPage {
     }
 
     public void enterUsername(String username) {
-        wait.until(ExpectedConditions.elementToBeClickable(userName)).sendKeys(username);
+        helper.enterText(userName, username);
     }
 
     public void enterPassword(String pwd) {
-        wait.until(ExpectedConditions.elementToBeClickable(password)).sendKeys(pwd);
+        helper.enterText(password, pwd);
     }
 
     public void enterConfirmPassword(String confirmPwd) {
-        wait.until(ExpectedConditions.elementToBeClickable(confirmPassword)).sendKeys(confirmPwd);
+        helper.enterText(confirmPassword, confirmPwd);
     }
 
     public void clickSaveButton() {
-        wait.until(ExpectedConditions.elementToBeClickable(saveBtn)).click();
+        helper.clickElement(saveBtn);
     }
 
     public boolean isSuccessMessageDisplayed() {
-        return wait.until(ExpectedConditions.visibilityOf(successToast)).isDisplayed();
+        helper.waitForElement(successToast);
+        return successToast.isDisplayed();
+        
     }
 }

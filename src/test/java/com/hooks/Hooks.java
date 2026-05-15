@@ -1,9 +1,7 @@
 package com.hooks;
 
-import java.time.Duration;
-
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import com.utilities.ConfigReader;
 import com.utilities.HelperClass;
@@ -13,28 +11,20 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
 public class Hooks {
+	private static final Logger logger = LogManager.getLogger(Hooks.class);
 
-    public static WebDriver driver;
     ConfigReader config = new ConfigReader("config.properties");
+    HelperClass helper = new HelperClass();
 
     @Before
-    public void setup() {
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get(config.getData("url"));
+    public void setup(Scenario scenario) {
+    	logger.info("Starting Scenario: " + scenario.getName());
+        helper.setupBrowser(config.getData("url"));
     }
 
     @After
     public void tearDown(Scenario scenario) {
-
-        HelperClass helper = new HelperClass(driver);
-
-        if (scenario.isFailed()) {
-            helper.takeScreenshotOnFailure(scenario);
-            helper.saveScreenshotToFolder(scenario.getName().replaceAll(" ", "_"));
-        }
-
-        driver.quit();
+    	logger.info("Ending Scenario: " + scenario.getName());
+        helper.tearDown(scenario);
     }
 }
