@@ -3,13 +3,11 @@ package com.actions;
 import java.time.Duration;
 import java.util.List;
 import java.util.Map;
-
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import com.hooks.Hooks;
 import com.pages.PersonalDetailsPage;
 import com.utilities.HelperClass;
 
@@ -35,9 +33,11 @@ public class PersonalDetailsActions {
         waitForLoaderToDisappear();
 
         wait.until(ExpectedConditions.visibilityOf(personalDetailsPage.LicenseExpiryDate));
-        personalDetailsPage.LicenseExpiryDate.clear();
+        personalDetailsPage.LicenseExpiryDate.click();
+        personalDetailsPage.LicenseExpiryDate.sendKeys(Keys.CONTROL + "a");
+        personalDetailsPage.LicenseExpiryDate.sendKeys(Keys.DELETE);
         personalDetailsPage.LicenseExpiryDate.sendKeys(row.get("LicenseExpiryDate"));
-
+        
         personalDetailsPage.Nationality.click();
         selectDropdown(row.get("Nationality"));
 
@@ -70,4 +70,14 @@ public class PersonalDetailsActions {
 );
         return toast.getText().trim();
     }
+
+	public boolean isSuccessMessageDisplayed() {
+    try {
+        WebDriverWait toastWait = new WebDriverWait(helper.driver, Duration.ofSeconds(5));
+        toastWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
+        return true;
+    } catch (Exception e) {
+        return false;
+    }
+}
 }
