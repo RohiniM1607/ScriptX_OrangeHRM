@@ -72,4 +72,28 @@ public class ProfilePictureStepDefinition {
         String message = profilePictureActions.getSuccessMessage();
         Assert.assertEquals(message, "Success", "Sucessfully Saved");
     }
+    
+    @When("Employee moves to Profile Picture page")
+    public void employee_moves_to_profile_picture_page() {
+    	dashBoardActions.navigateToMyInfo();
+        dashBoardActions.navigateToProfilePicture();
+        profilePictureActions = new ProfilePictureActions();
+    }
+
+    @When("Employee uploads a profile picture using the below data")
+    public void employee_uploads_a_profile_picture_using_the_below_data(io.cucumber.datatable.DataTable dataTable) {
+    	List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+        String filePath = data.get(0).get("FilePath").trim();
+        profilePictureActions.uploadProfilePicture(filePath);
+    }
+
+    @When("Employee forgot to click on the Save button")
+    public void employee_forgot_to_click_on_the_save_button() {
+    	
+    }
+
+    @Then("Profile picture should not be updated successfully")
+    public void profile_picture_should_not_be_updated_successfully() {
+    	 Assert.assertFalse(profilePictureActions.isSuccessMessageDisplayed(),"Success message should NOT appear as Save was not clicked!");
+    }
 }

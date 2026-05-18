@@ -34,8 +34,18 @@ public class ProfilePictureActions {
     }
 
     public String getSuccessMessage() {
-        WebDriverWait toastWait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(15));
-        return toastWait.until(ExpectedConditions.visibilityOf(profilePicturePage.txtSuccessMessage)).getText().trim();
+        WebDriverWait MWait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(15));
+        return MWait.until(ExpectedConditions.visibilityOf(profilePicturePage.txtSuccessMessage)).getText().trim();
+    }
+
+    public boolean isSuccessMessageDisplayed() {
+        try {
+            WebDriverWait wait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(5));
+            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
 }

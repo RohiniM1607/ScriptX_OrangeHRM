@@ -4,7 +4,7 @@
     Given Employee is on OrangeHRM Profile Picture login page
     When Employee enters valid username and password for profile
       | username  | password      |
-      | Renukka R | RenukkaR@123  |
+      | Renukkka R | RenukkkaR@123  |
     And Employee clicks on login
     And the Employee is on the OrangeHRM Dashboard page
 
@@ -22,6 +22,6 @@
   When Employee moves to Profile Picture page
   And Employee uploads a profile picture using the below data
     | FilePath                                   |
-    | C:\Users\Reshma\Desktop\RESHMA\profile.jpg |
+    | C:\Users\Reshma\Desktop\RESHMA\profile1.jpg |
   And Employee forgot to click on the Save button
   Then Profile picture should not be updated successfully
