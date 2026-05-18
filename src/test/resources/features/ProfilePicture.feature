@@ -16,3 +16,12 @@
       | C:\Users\Reshma\Desktop\RESHMA\profile.jpg |
     And Employee clicks on the Save button 
     Then Profile picture should be uploaded successfully
+    
+  @InvalidReshmaProfilePicture
+  Scenario: Changing the profile picture without saving
+  When Employee moves to Profile Picture page
+  And Employee uploads a profile picture using the below data
+    | FilePath                                   |
+    | C:\Users\Reshma\Desktop\RESHMA\profile.jpg |
+  And Employee forgot to click on the Save button
+  Then Profile picture should not be updated successfully
