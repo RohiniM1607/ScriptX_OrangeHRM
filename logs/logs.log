@@ -962,3 +962,616 @@
 [INFO ] 2026-05-18 13:17:36.649 [main] Hooks - Ending Scenario: Login with valid Employee credentials
 [INFO ] 2026-05-18 13:17:36.651 [main] HelperClass - Scenario passed: Login with valid Employee credentials
 [INFO ] 2026-05-18 13:17:36.652 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:06:32.862 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:06:32.866 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:06:36.048 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:06:36.137 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:06:41.685 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:06:41.685 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:06:43.226 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:06:43.227 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:06:43.418 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:06:43.418 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:06:43.609 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:06:43.610 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:06:57.845 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:06:57.845 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:06:59.559 [main] HelperClass - Entering text: Jagadeep
+[INFO ] 2026-05-18 14:06:59.559 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:00.141 [main] HelperClass - Entering text: KC
+[INFO ] 2026-05-18 14:07:00.143 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:00.390 [main] HelperClass - Entering text: 1001
+[INFO ] 2026-05-18 14:07:00.390 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:00.569 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:00.570 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:05.859 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:07:05.862 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:07:05.863 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:07:06.319 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:07:06.319 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:07:07.271 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:07:07.338 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:07:13.696 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:07:13.697 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:14.699 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:07:14.700 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:14.855 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:14.855 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:14.987 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:14.988 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:18.093 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:18.093 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:19.818 [main] HelperClass - Entering text: Rohit
+[INFO ] 2026-05-18 14:07:19.818 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:20.490 [main] HelperClass - Entering text: Kumar
+[INFO ] 2026-05-18 14:07:20.491 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:20.722 [main] HelperClass - Entering text: 1002
+[INFO ] 2026-05-18 14:07:20.723 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:20.887 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:20.888 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:26.343 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:07:26.343 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:07:26.344 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:07:26.582 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:07:26.582 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:07:27.464 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:07:27.502 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:07:32.239 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:07:32.239 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:33.511 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:07:33.511 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:33.675 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:33.675 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:33.803 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:33.803 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:38.410 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:38.411 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:40.881 [main] HelperClass - Entering text: Arun
+[INFO ] 2026-05-18 14:07:40.881 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:41.490 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:07:41.490 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:41.671 [main] HelperClass - Entering text: 1003
+[INFO ] 2026-05-18 14:07:41.671 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:07:41.811 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:07:41.811 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:07:52.013 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:07:52.013 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:07:52.013 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:07:52.014 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:07:52.353 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:07:52.353 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:07:52.630 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:07:52.630 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:07:53.728 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:07:53.783 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:08:35.793 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:08:35.795 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:08:56.629 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:08:56.629 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:08:56.629 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:08:56.629 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:08:57.014 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:08:57.015 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:08:57.302 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:08:57.304 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:08:58.274 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:08:58.332 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:09:03.118 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:09:03.121 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:09:05.653 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:09:05.653 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:09:05.803 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:09:05.804 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:09:05.951 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:09:05.952 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:09:21.156 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:09:21.156 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:09:29.692 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:09:29.693 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:09:31.808 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:09:31.809 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:09:31.977 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:09:31.977 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:09:33.138 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:09:33.138 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:09:33.138 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:09:33.138 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:09:33.545 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:09:33.545 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:15:07.948 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:15:07.950 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:15:09.752 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:15:09.816 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:15:14.779 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:15:14.780 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:15.490 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:15:15.490 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:15.657 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:15.658 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:15.828 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:15.829 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:18.933 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:18.933 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:20.321 [main] HelperClass - Entering text: Jagadeepp
+[INFO ] 2026-05-18 14:15:20.321 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:20.880 [main] HelperClass - Entering text: KC
+[INFO ] 2026-05-18 14:15:20.880 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:21.038 [main] HelperClass - Entering text: 1001
+[INFO ] 2026-05-18 14:15:21.040 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:21.246 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:21.246 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:27.448 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:15:27.450 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:15:27.450 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:15:27.763 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:15:27.764 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:15:28.705 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:15:28.757 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:15:31.706 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:15:31.707 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:32.286 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:15:32.286 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:32.446 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:32.447 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:32.583 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:32.583 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:35.666 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:35.666 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:36.698 [main] HelperClass - Entering text: Rohitt
+[INFO ] 2026-05-18 14:15:36.698 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:37.254 [main] HelperClass - Entering text: Kumar
+[INFO ] 2026-05-18 14:15:37.254 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:37.414 [main] HelperClass - Entering text: 1002
+[INFO ] 2026-05-18 14:15:37.414 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:37.584 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:37.584 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:42.566 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:15:42.566 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:15:42.566 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:15:44.350 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:15:44.351 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:15:45.281 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:15:45.338 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:15:50.160 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:15:50.160 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:53.330 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:15:53.330 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:15:53.498 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:53.498 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:53.647 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:53.648 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:15:58.327 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:15:58.328 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:00.704 [main] HelperClass - Entering text: Anand
+[INFO ] 2026-05-18 14:16:00.706 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:01.253 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:16:01.253 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:01.392 [main] HelperClass - Entering text: 1003
+[INFO ] 2026-05-18 14:16:01.393 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:01.551 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:01.551 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:11.778 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:16:11.778 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:16:11.778 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:16:11.778 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:16:12.255 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:16:12.255 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:16:12.490 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:16:12.490 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:16:13.417 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:16:13.464 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:16:16.267 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:16:16.267 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:16.989 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:16:16.990 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:17.191 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:17.192 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:17.365 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:17.366 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:20.092 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:20.093 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:21.384 [main] HelperClass - Entering text: @Jagadeepp
+[INFO ] 2026-05-18 14:16:21.384 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:22.006 [main] HelperClass - Entering text: %KC
+[INFO ] 2026-05-18 14:16:22.006 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:22.189 [main] HelperClass - Entering text: 1004
+[INFO ] 2026-05-18 14:16:22.189 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:22.362 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:22.363 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:28.702 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:16:28.703 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:16:28.703 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:16:29.035 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:16:29.036 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:16:30.055 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:16:30.098 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:16:34.102 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:16:34.102 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:35.001 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:16:35.001 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:35.149 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:35.150 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:35.286 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:35.286 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:39.643 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:39.643 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:41.360 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:16:41.360 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:41.949 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:16:41.949 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:16:42.108 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:16:42.110 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:16:43.188 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:16:43.189 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:16:43.189 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:19:03.385 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:19:03.391 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:19:05.166 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:19:05.244 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:19:40.850 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:19:40.850 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:20:02.543 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:20:02.548 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:20:02.549 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:20:02.549 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:20:02.893 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:20:02.893 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:20:03.175 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:20:03.175 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:20:04.006 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:20:04.056 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:20:44.439 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:20:44.445 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:20:46.533 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:20:46.615 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:21:38.269 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:21:38.271 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:22:08.960 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:22:08.964 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:22:08.965 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:22:08.966 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:22:09.251 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:22:09.251 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:22:09.506 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:22:09.506 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:22:10.294 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:22:10.339 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:22:41.567 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:22:41.568 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:22:53.885 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:22:53.885 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:22:54.032 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:22:54.033 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:22:54.180 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:22:54.182 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:23:58.456 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:23:58.458 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:23:58.459 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:23:58.459 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:23:58.665 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:23:58.666 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:23:58.971 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:23:58.972 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:23:59.747 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:23:59.794 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:24:12.234 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:24:12.236 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:24:19.045 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:24:19.045 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:24:19.200 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:24:19.200 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:24:19.355 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:24:19.355 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:24:39.755 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:24:39.755 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:24:45.943 [main] HelperClass - Entering text: Anan
+[INFO ] 2026-05-18 14:24:45.943 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:24:46.753 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:24:46.753 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:24:46.935 [main] HelperClass - Entering text: 1003
+[INFO ] 2026-05-18 14:24:46.935 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:24:47.116 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:24:47.116 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:24:57.429 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:24:57.429 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:24:57.429 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:24:57.430 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:24:57.868 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:24:57.868 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:24:58.179 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:24:58.179 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:24:59.096 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:24:59.138 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:25:02.214 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:25:02.215 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:02.815 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:25:02.816 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:03.007 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:25:03.007 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:25:03.170 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:25:03.170 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:25:06.493 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:25:06.494 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:25:07.781 [main] HelperClass - Entering text: @Jagadee
+[INFO ] 2026-05-18 14:25:07.781 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:08.482 [main] HelperClass - Entering text: %KC
+[INFO ] 2026-05-18 14:25:08.482 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:08.659 [main] HelperClass - Entering text: 1004
+[INFO ] 2026-05-18 14:25:08.660 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:08.881 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:25:08.882 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:25:14.016 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:25:14.017 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:25:14.017 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:25:14.297 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:25:14.298 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:25:15.203 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:25:15.248 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:25:16.079 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:25:16.079 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:20.679 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:25:20.679 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:20.834 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:25:20.835 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:25:20.989 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:25:20.990 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:25:24.146 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:25:24.146 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:25:26.614 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:25:26.614 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:27.273 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:25:27.274 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:25:27.448 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:25:27.449 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:25:28.545 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:25:28.545 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:25:28.545 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:53:27.137 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:53:27.143 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:53:28.946 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:53:28.999 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:53:33.533 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:53:33.533 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:33.916 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:53:33.916 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:34.108 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:53:34.109 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:53:34.266 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:53:34.267 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:53:36.885 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:53:36.885 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:53:38.055 [main] HelperClass - Entering text: Jagadee
+[INFO ] 2026-05-18 14:53:38.055 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:38.578 [main] HelperClass - Entering text: KC
+[INFO ] 2026-05-18 14:53:38.579 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:38.729 [main] HelperClass - Entering text: 1001
+[INFO ] 2026-05-18 14:53:38.729 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:38.960 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:53:38.961 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:53:43.715 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:53:43.719 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:53:43.719 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:53:44.036 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:53:44.036 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:53:44.938 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:53:44.995 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:53:48.700 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:53:48.700 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:49.244 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:53:49.245 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:49.437 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:53:49.437 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:53:49.595 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:53:49.595 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:53:53.753 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:53:53.753 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:53:54.783 [main] HelperClass - Entering text: Rohi
+[INFO ] 2026-05-18 14:53:54.783 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:55.475 [main] HelperClass - Entering text: Kumar
+[INFO ] 2026-05-18 14:53:55.476 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:55.620 [main] HelperClass - Entering text: 1002
+[INFO ] 2026-05-18 14:53:55.621 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:53:55.770 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:53:55.770 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:01.160 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:01.162 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:01.162 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:54:01.466 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:01.468 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:54:02.364 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:54:02.416 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:54:06.593 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:54:06.593 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:07.224 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:54:07.225 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:07.374 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:07.374 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:07.524 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:07.525 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:10.177 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:10.177 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:11.152 [main] HelperClass - Entering text: Anan
+[INFO ] 2026-05-18 14:54:11.153 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:11.780 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:54:11.782 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:11.919 [main] HelperClass - Entering text: 1003
+[INFO ] 2026-05-18 14:54:11.919 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:12.065 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:12.065 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:22.409 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[ERROR] 2026-05-18 14:54:22.410 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 14:54:22.410 [main] HelperClass - Scenario failed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:22.410 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 14:54:22.783 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Create_employee_with_multiple_data_combinations.png
+[INFO ] 2026-05-18 14:54:22.784 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:54:23.028 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:23.029 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:54:23.918 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:54:23.962 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:54:26.706 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:54:26.708 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:27.277 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:54:27.278 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:27.468 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:27.469 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:27.606 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:27.606 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:30.290 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:30.290 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:31.242 [main] HelperClass - Entering text: @Jagadee
+[INFO ] 2026-05-18 14:54:31.243 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:31.765 [main] HelperClass - Entering text: %KC
+[INFO ] 2026-05-18 14:54:31.766 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:31.941 [main] HelperClass - Entering text: 1004
+[INFO ] 2026-05-18 14:54:31.942 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:32.123 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:32.123 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:36.920 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:36.921 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:36.921 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:54:37.165 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:37.166 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:54:37.955 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:54:38.006 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:54:48.272 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:54:48.273 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:48.982 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:54:48.982 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:49.138 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:49.138 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:49.270 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:49.270 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:52.093 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:52.093 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:53.049 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:54:53.049 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:53.549 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:54:53.549 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:54:53.719 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:54:53.719 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:54:54.870 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:54.870 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:54:54.870 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:57:20.687 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:57:20.698 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:57:22.663 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:57:22.735 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:57:26.034 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:57:26.034 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:26.400 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:57:26.400 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:26.608 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:57:26.609 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:57:26.792 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:57:26.793 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:57:30.283 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:57:30.284 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:57:32.696 [main] HelperClass - Entering text: Jagadee
+[INFO ] 2026-05-18 14:57:32.696 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:33.291 [main] HelperClass - Entering text: KC
+[INFO ] 2026-05-18 14:57:33.291 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:33.477 [main] HelperClass - Entering text: 1001
+[INFO ] 2026-05-18 14:57:33.477 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:33.698 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:57:33.698 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:57:39.899 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:57:39.903 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:57:39.903 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:57:40.252 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:57:40.252 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:57:41.201 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:57:41.250 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:57:44.362 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:57:44.362 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:45.618 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:57:45.619 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:45.762 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:57:45.762 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:57:45.900 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:57:45.901 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:57:51.610 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:57:51.610 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:57:53.613 [main] HelperClass - Entering text: Rohi
+[INFO ] 2026-05-18 14:57:53.614 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:54.278 [main] HelperClass - Entering text: Kumar
+[INFO ] 2026-05-18 14:57:54.278 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:54.429 [main] HelperClass - Entering text: 1002
+[INFO ] 2026-05-18 14:57:54.429 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:57:54.569 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:57:54.570 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:01.045 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:01.047 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:01.047 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:58:01.422 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:01.422 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:58:02.200 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:58:02.255 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:58:06.787 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:58:06.787 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:07.798 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:58:07.799 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:07.972 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:07.973 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:08.129 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:08.129 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:16.357 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:16.358 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:18.734 [main] HelperClass - Entering text: Anan
+[INFO ] 2026-05-18 14:58:18.735 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:20.090 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:58:20.090 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:20.228 [main] HelperClass - Entering text: 1003
+[INFO ] 2026-05-18 14:58:20.229 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:20.396 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:20.396 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:21.394 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:21.395 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:21.395 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:58:21.689 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:21.689 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:58:22.515 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:58:22.554 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:58:24.952 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:58:24.953 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:25.598 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:58:25.598 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:25.760 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:25.760 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:25.918 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:25.919 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:29.292 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:29.293 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:31.368 [main] HelperClass - Entering text: @Jagadee
+[INFO ] 2026-05-18 14:58:31.368 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:31.940 [main] HelperClass - Entering text: %KC
+[INFO ] 2026-05-18 14:58:31.941 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:32.089 [main] HelperClass - Entering text: 1004
+[INFO ] 2026-05-18 14:58:32.089 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:32.261 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:32.261 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:37.112 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:37.113 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:37.113 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 14:58:37.344 [main] Hooks - Starting Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:37.344 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 14:58:38.248 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 14:58:38.306 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 14:58:40.665 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 14:58:40.666 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:41.718 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 14:58:41.718 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:41.877 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:41.877 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:41.994 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:41.994 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:45.761 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:45.761 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:47.133 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:58:47.134 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:47.717 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 14:58:47.717 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 14:58:47.949 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 14:58:47.950 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 14:58:49.237 [main] Hooks - Ending Scenario: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:49.238 [main] HelperClass - Scenario passed: Create employee with multiple data combinations
+[INFO ] 2026-05-18 14:58:49.238 [main] HelperClass - Closing browser
