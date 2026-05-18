@@ -645,3 +645,320 @@
 [INFO ] 2026-05-18 12:14:57.434 [main] Hooks - Ending Scenario: Update personal details with valid data
 [INFO ] 2026-05-18 12:14:57.435 [main] HelperClass - Scenario passed: Update personal details with valid data
 [INFO ] 2026-05-18 12:14:57.435 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:49:17.545 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-05-18 12:49:17.549 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:49:20.092 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:49:20.165 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:49:41.359 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 12:49:41.360 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:49:43.804 [main] HelperClass - Entering text: RenukkaR@123
+[INFO ] 2026-05-18 12:49:43.804 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:49:43.973 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:49:43.974 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:50:32.843 [main] Hooks - Ending Scenario: Update personal details with valid data
+[ERROR] 2026-05-18 12:50:32.850 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 12:50:32.850 [main] HelperClass - Scenario failed: Update personal details with valid data
+[INFO ] 2026-05-18 12:50:32.851 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 12:50:33.317 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Update_personal_details_with_valid_data.png
+[INFO ] 2026-05-18 12:50:33.317 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:50:33.645 [main] Hooks - Starting Scenario: Edit personal details without saving changes
+[INFO ] 2026-05-18 12:50:33.645 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:50:34.487 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:50:34.538 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:50:42.573 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 12:50:42.573 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:50:53.010 [main] Hooks - Ending Scenario: Edit personal details without saving changes
+[ERROR] 2026-05-18 12:50:53.011 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 12:50:53.011 [main] HelperClass - Scenario failed: Edit personal details without saving changes
+[INFO ] 2026-05-18 12:50:53.011 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 12:50:53.331 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Edit_personal_details_without_saving_changes.png
+[INFO ] 2026-05-18 12:50:53.332 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:54:21.967 [main] Hooks - Starting Scenario: Update personal details with valid data
+[INFO ] 2026-05-18 12:54:21.972 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:54:23.815 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:54:23.880 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:54:38.000 [main] HelperClass - Entering text: Renukka R
+[INFO ] 2026-05-18 12:54:38.000 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:55:00.703 [main] Hooks - Starting Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-18 12:55:00.707 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:55:02.469 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:55:02.530 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:55:14.769 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 12:55:14.769 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:55:17.332 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 12:55:17.332 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:55:17.494 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:55:17.494 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:55:25.167 [main] Hooks - Ending Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-18 12:55:25.171 [main] HelperClass - Scenario passed: Login with valid default admin credentials
+[INFO ] 2026-05-18 12:55:25.172 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:55:25.484 [main] Hooks - Starting Scenario: Login with invalid username and password
+[INFO ] 2026-05-18 12:55:25.485 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:55:26.278 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:55:26.332 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:55:35.322 [main] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-18 12:55:35.322 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:55:40.429 [main] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-18 12:55:40.430 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:55:40.633 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:55:40.634 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:55:40.843 [main] Hooks - Ending Scenario: Login with invalid username and password
+[INFO ] 2026-05-18 12:55:40.844 [main] HelperClass - Scenario passed: Login with invalid username and password
+[INFO ] 2026-05-18 12:55:40.844 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:55:41.075 [main] Hooks - Starting Scenario: Login with empty username and password
+[INFO ] 2026-05-18 12:55:41.075 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:55:41.911 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:55:41.961 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:55:52.326 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 12:55:52.327 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:55:55.795 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 12:55:55.796 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:55:55.944 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:55:55.944 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:55:56.100 [main] Hooks - Ending Scenario: Login with empty username and password
+[INFO ] 2026-05-18 12:55:56.100 [main] HelperClass - Scenario passed: Login with empty username and password
+[INFO ] 2026-05-18 12:55:56.100 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:55:56.316 [main] Hooks - Starting Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-18 12:55:56.316 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:55:57.126 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:55:57.181 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:56:09.381 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 12:56:09.385 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:56:11.871 [main] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-18 12:56:11.871 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:56:12.026 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:56:12.027 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:56:12.173 [main] Hooks - Ending Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-18 12:56:12.173 [main] HelperClass - Scenario passed: Login with valid username and invalid password
+[INFO ] 2026-05-18 12:56:12.174 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:56:12.395 [main] Hooks - Starting Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-18 12:56:12.395 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:56:13.337 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:56:13.386 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:56:16.963 [main] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-18 12:56:16.964 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:56:27.681 [main] Hooks - Ending Scenario: Login with invalid username and valid password
+[ERROR] 2026-05-18 12:56:27.682 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 12:56:27.683 [main] HelperClass - Scenario failed: Login with invalid username and valid password
+[INFO ] 2026-05-18 12:56:27.683 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 12:56:28.081 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Login_with_invalid_username_and_valid_password.png
+[INFO ] 2026-05-18 12:56:28.082 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:56:28.307 [main] Hooks - Starting Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-18 12:56:28.307 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:56:29.095 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:56:29.148 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:56:37.700 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 12:56:37.700 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:56:41.413 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 12:56:41.414 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:56:41.577 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:56:41.578 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:56:51.241 [main] Hooks - Ending Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-18 12:56:51.242 [main] HelperClass - Scenario passed: Verify logout functionality after successful login
+[INFO ] 2026-05-18 12:56:51.242 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:56:51.467 [main] Hooks - Starting Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-18 12:56:51.467 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:56:52.441 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:56:52.490 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:56:59.682 [main] Hooks - Ending Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-18 12:56:59.683 [main] HelperClass - Scenario passed: Login with valid Employee credentials
+[INFO ] 2026-05-18 12:56:59.683 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:58:02.068 [main] Hooks - Starting Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-18 12:58:02.072 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:58:03.953 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:58:04.022 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:58:19.708 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 12:58:19.708 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:58:21.936 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 12:58:21.937 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:58:22.099 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:58:22.100 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:58:36.349 [main] Hooks - Ending Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-18 12:58:36.352 [main] HelperClass - Scenario passed: Login with valid default admin credentials
+[INFO ] 2026-05-18 12:58:36.352 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:58:36.737 [main] Hooks - Starting Scenario: Login with invalid username and password
+[INFO ] 2026-05-18 12:58:36.738 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:58:37.614 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:58:37.659 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:58:45.445 [main] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-18 12:58:45.445 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:58:59.376 [main] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-18 12:58:59.376 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:58:59.557 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:58:59.557 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:58:59.732 [main] Hooks - Ending Scenario: Login with invalid username and password
+[INFO ] 2026-05-18 12:58:59.732 [main] HelperClass - Scenario passed: Login with invalid username and password
+[INFO ] 2026-05-18 12:58:59.732 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:58:59.972 [main] Hooks - Starting Scenario: Login with empty username and password
+[INFO ] 2026-05-18 12:58:59.973 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:59:00.788 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:59:00.836 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:59:17.057 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 12:59:17.057 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:59:20.714 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 12:59:20.714 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:59:20.862 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:59:20.862 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:59:21.025 [main] Hooks - Ending Scenario: Login with empty username and password
+[INFO ] 2026-05-18 12:59:21.025 [main] HelperClass - Scenario passed: Login with empty username and password
+[INFO ] 2026-05-18 12:59:21.025 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:59:21.260 [main] Hooks - Starting Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-18 12:59:21.260 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:59:22.214 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:59:22.275 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:59:37.064 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 12:59:37.064 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:59:41.095 [main] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-18 12:59:41.095 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 12:59:41.282 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 12:59:41.283 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 12:59:47.649 [main] Hooks - Ending Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-18 12:59:47.649 [main] HelperClass - Scenario passed: Login with valid username and invalid password
+[INFO ] 2026-05-18 12:59:47.649 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 12:59:47.880 [main] Hooks - Starting Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-18 12:59:47.880 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 12:59:48.794 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 12:59:48.844 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 12:59:53.771 [main] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-18 12:59:53.772 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:00:03.081 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 13:00:03.083 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:00:03.244 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:00:03.244 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:00:03.371 [main] Hooks - Ending Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-18 13:00:03.373 [main] HelperClass - Scenario passed: Login with invalid username and valid password
+[INFO ] 2026-05-18 13:00:03.373 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:00:03.578 [main] Hooks - Starting Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-18 13:00:03.578 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:00:04.461 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:00:04.514 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:00:18.251 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 13:00:18.251 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:00:22.785 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 13:00:22.786 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:00:22.963 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:00:22.964 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:00:36.518 [main] Hooks - Ending Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-18 13:00:36.519 [main] HelperClass - Scenario passed: Verify logout functionality after successful login
+[INFO ] 2026-05-18 13:00:36.519 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:00:36.760 [main] Hooks - Starting Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-18 13:00:36.760 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:00:37.554 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:00:37.607 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:00:51.406 [main] Hooks - Ending Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-18 13:00:51.406 [main] HelperClass - Scenario passed: Login with valid Employee credentials
+[INFO ] 2026-05-18 13:00:51.406 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:02:53.929 [main] Hooks - Starting Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-18 13:02:53.934 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:02:55.791 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:02:55.870 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:03:19.763 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 13:03:19.764 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:03:22.699 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 13:03:22.699 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:03:22.859 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:03:22.859 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:03:39.804 [main] Hooks - Ending Scenario: Login with valid default admin credentials
+[INFO ] 2026-05-18 13:03:39.807 [main] HelperClass - Scenario passed: Login with valid default admin credentials
+[INFO ] 2026-05-18 13:03:39.807 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:03:40.132 [main] Hooks - Starting Scenario: Login with invalid username and password
+[INFO ] 2026-05-18 13:03:40.132 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:03:40.957 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:03:41.014 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:04:01.767 [main] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-18 13:04:01.770 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:04:08.672 [main] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-18 13:04:08.673 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:04:08.834 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:04:08.835 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:04:08.959 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:04:23.987 [main] Hooks - Ending Scenario: Login with invalid username and password
+[INFO ] 2026-05-18 13:04:23.987 [main] HelperClass - Scenario passed: Login with invalid username and password
+[INFO ] 2026-05-18 13:04:23.987 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:04:24.248 [main] Hooks - Starting Scenario: Login with empty username and password
+[INFO ] 2026-05-18 13:04:24.249 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:04:25.076 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:04:25.131 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:04:50.076 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 13:04:50.077 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:04:53.856 [main] HelperClass - Entering text: 
+[INFO ] 2026-05-18 13:04:53.856 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:04:53.999 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:04:53.999 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:04:54.185 [main] Hooks - Ending Scenario: Login with empty username and password
+[INFO ] 2026-05-18 13:04:54.186 [main] HelperClass - Scenario passed: Login with empty username and password
+[INFO ] 2026-05-18 13:04:54.187 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:04:54.408 [main] Hooks - Starting Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-18 13:04:54.409 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:04:55.269 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:04:55.332 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:05:02.902 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 13:05:02.904 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:05:06.232 [main] HelperClass - Entering text: Admin9876
+[INFO ] 2026-05-18 13:05:06.232 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:05:06.379 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:05:06.379 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:05:06.520 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:05:14.271 [main] Hooks - Ending Scenario: Login with valid username and invalid password
+[INFO ] 2026-05-18 13:05:14.271 [main] HelperClass - Scenario passed: Login with valid username and invalid password
+[INFO ] 2026-05-18 13:05:14.272 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:05:14.580 [main] Hooks - Starting Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-18 13:05:14.580 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:05:15.570 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:05:15.613 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:05:33.026 [main] HelperClass - Entering text: Admin1345
+[INFO ] 2026-05-18 13:05:33.026 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:05:39.456 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 13:05:39.457 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:05:39.667 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:05:39.667 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:05:39.828 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:05:51.574 [main] Hooks - Ending Scenario: Login with invalid username and valid password
+[INFO ] 2026-05-18 13:05:51.575 [main] HelperClass - Scenario passed: Login with invalid username and valid password
+[INFO ] 2026-05-18 13:05:51.575 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:05:51.846 [main] Hooks - Starting Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-18 13:05:51.846 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:05:52.658 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:05:52.706 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:06:12.039 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-18 13:06:12.041 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:06:17.592 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 13:06:17.593 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:06:17.776 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:06:17.777 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:06:32.643 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:06:32.644 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:06:39.524 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:06:39.524 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:06:56.532 [main] Hooks - Ending Scenario: Verify logout functionality after successful login
+[INFO ] 2026-05-18 13:06:56.532 [main] HelperClass - Scenario passed: Verify logout functionality after successful login
+[INFO ] 2026-05-18 13:06:56.532 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:06:56.831 [main] Hooks - Starting Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-18 13:06:56.831 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:06:57.811 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:06:57.861 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:07:10.016 [main] HelperClass - Entering text: Jagadeep
+[INFO ] 2026-05-18 13:07:10.018 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:07:14.901 [main] HelperClass - Entering text: Jagadeep@123
+[INFO ] 2026-05-18 13:07:14.901 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:07:15.080 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:07:15.080 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:07:24.220 [main] Hooks - Ending Scenario: Login with valid Employee credentials
+[ERROR] 2026-05-18 13:07:24.221 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-18 13:07:24.222 [main] HelperClass - Scenario failed: Login with valid Employee credentials
+[INFO ] 2026-05-18 13:07:24.222 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-18 13:07:24.489 [main] HelperClass - Screenshot saved at: D:\ScriptX_Project\ScriptX_OrangeHRM\target\screenshots\Login_with_valid_Employee_credentials.png
+[INFO ] 2026-05-18 13:07:24.489 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 13:17:13.049 [main] Hooks - Starting Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-18 13:17:13.052 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 13:17:14.862 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 13:17:14.930 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 13:17:25.859 [main] HelperClass - Entering text: Johnson
+[INFO ] 2026-05-18 13:17:25.859 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:17:29.206 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-18 13:17:29.206 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-18 13:17:29.373 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-18 13:17:29.374 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-18 13:17:36.649 [main] Hooks - Ending Scenario: Login with valid Employee credentials
+[INFO ] 2026-05-18 13:17:36.651 [main] HelperClass - Scenario passed: Login with valid Employee credentials
+[INFO ] 2026-05-18 13:17:36.652 [main] HelperClass - Closing browser
