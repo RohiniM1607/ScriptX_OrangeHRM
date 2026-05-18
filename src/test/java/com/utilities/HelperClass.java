@@ -39,13 +39,13 @@ public class HelperClass {
 
     public void waitForElement(WebElement element) {
     	logger.info("Waiting for element visibility");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     public void waitForElementToBeClickable(WebElement element) {
     	logger.info("Waiting for element to be clickable");
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 

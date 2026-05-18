@@ -25,7 +25,6 @@ public class Add_leave_entitlement_Steps {
 
     @When("Admin enters valid employee leave entitlement details")
     public void admin_enters_valid_employee_leave_entitlement_details() {
-       
         aa.Name_field();
         aa.leaveType_field();
         aa.entitlement_field();
