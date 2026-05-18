@@ -9,7 +9,7 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
     When user enters valid username and password
     And user clicks on login button
     Then user should be navigated to dashboard page
-    Given user is on OrangeHRM Admin User Management page
+    And user is on OrangeHRM Admin User Management page
 
   Scenario Outline: Create user login credential
     When user clicks on Add button
@@ -18,6 +18,12 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
     Then user credential should be created successfully
 
     Examples:
-      | role  | employeeName | status  | username | password   | confirmPassword |
-      | ESS | Employee 1     | Enabled | Employee_1 | Employee@123 | Employee@123      |
-      | Admin | Admin 1      | Enabled | Admin_1    | Admin@123    | Admin@123     |
+      | role  | employeeName | status  | username   | password     | confirmPassword |
+      | ESS   | Employee 1   | Enabled | Employee_1 | Employee@123 | Employee@123    |
+      | Admin | Admin 1      | Enabled | Admin_1    | Admin@123    | Admin@123       |
+
+   Scenario: Create user without mandatory fields using excel data
+    When user clicks on Add button
+    And user enters user credential details from excel
+    And user clicks on Save button
+    Then required validation message should be displayed for mandatory fields

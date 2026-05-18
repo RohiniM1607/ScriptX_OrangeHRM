@@ -1,8 +1,11 @@
 package com.stepdefinitions;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 
 import com.actions.CreateUserCredentialsActions;
+import com.utilities.DP_Excel;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -31,6 +34,26 @@ public class CreateUserCredentialsSteps {
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
     }
 
+    @When("user enters user credential details from excel")
+    public void user_enters_user_credential_details_from_excel() throws IOException {
+
+        DP_Excel excel = new DP_Excel();
+
+        Object[][] data = excel.getExcelData(
+                "src/test/resources/TestData/CreateUserCredential.xlsx",
+                "Sheet1"
+        );
+
+        String role = getCellValue(data[0][0]);
+        String employeeName = getCellValue(data[0][1]);
+        String status = getCellValue(data[0][2]);
+        String username = getCellValue(data[0][3]);
+        String password = getCellValue(data[0][4]);
+        String confirmPassword = getCellValue(data[0][5]);
+
+        createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
+    }
+
     @When("user clicks on Save button")
     public void user_clicks_on_save_button() {
         createUserActions.clickSaveButton();
@@ -39,5 +62,17 @@ public class CreateUserCredentialsSteps {
     @Then("user credential should be created successfully")
     public void user_credential_should_be_created_successfully() {
         Assert.assertTrue(createUserActions.verifySuccessMessageDisplayed());
+    }
+
+    @Then("required validation message should be displayed for mandatory fields")
+    public void required_validation_message_should_be_displayed_for_mandatory_fields() {
+        Assert.assertTrue(createUserActions.verifyRequiredValidationMessageDisplayed());
+    }
+
+    public String getCellValue(Object value) {
+        if (value == null) {
+            return "";
+        }
+        return value.toString().trim();
     }
 }
