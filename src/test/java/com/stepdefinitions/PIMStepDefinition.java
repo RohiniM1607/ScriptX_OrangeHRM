@@ -12,12 +12,16 @@ import io.cucumber.java.en.When;
 public class PIMStepDefinition {
 
 	LoginActions login = new LoginActions();
+
 	PIMActions pim = new PIMActions();
+
+	// ================= ADD EMPLOYEE =================
 
 	@Given("admin is logged into OrangeHRM")
 	public void admin_is_logged_into_orangehrm() {
 
 		login.enterValidCredentials();
+
 		login.clickLogin();
 
 		pim.navigateToAddEmployee();
@@ -45,7 +49,31 @@ public class PIMStepDefinition {
 
 		else if (result.equalsIgnoreCase("required")) {
 
-			Assert.assertTrue(pim.verifyRequiredMessage(), "Required validation message not displayed");
+			Assert.assertTrue(pim.verifyRequiredMessage(), "Required message not displayed");
 		}
+	}
+
+	// ================= SEARCH EMPLOYEE =================
+
+	@Given("admin is logged into OrangeHRM search page")
+	public void admin_is_logged_into_orangehrm_search_page() {
+
+		login.enterValidCredentials();
+
+		login.clickLogin();
+
+		pim.navigateToSearchEmployee();
+	}
+
+	@When("admin searches employee using excel data")
+	public void admin_searches_employee_using_excel_data() {
+
+		pim.searchEmployeeUsingExcelData();
+	}
+
+	@Then("verify employee search results")
+	public void verify_employee_search_results() {
+
+		Assert.assertTrue(pim.verifySearchSuccess(), "Employee search failed");
 	}
 }
