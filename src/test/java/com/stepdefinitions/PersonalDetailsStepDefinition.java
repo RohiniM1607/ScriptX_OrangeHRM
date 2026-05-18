@@ -7,6 +7,8 @@ import com.actions.DashBoardActions;
 import com.actions.LoginActions;
 import com.actions.PersonalDetailsActions;
 import com.pages.LoginPage;
+import com.utilities.HelperClass;
+
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
@@ -19,6 +21,7 @@ public class PersonalDetailsStepDefinition {
     DashBoardActions dashBoardActions;
     PersonalDetailsActions personalDetailsActions;
     LoginPage loginPage;
+    HelperClass helper=new HelperClass();
 
     @Given("Employee is on OrangeHRM login page")
     public void employee_is_on_orangehrm_login_page() {
@@ -67,5 +70,27 @@ public class PersonalDetailsStepDefinition {
     public void personal_details_should_be_updated_successfully() {
         String message = personalDetailsActions.getSuccessMessage();
         Assert.assertEquals(message, "Success", "Success message mismatch!");
+    }
+    @When("Employee moves to My Info page")
+    public void employee_moves_to_my_info_page() {
+        dashBoardActions.navigateToMyInfo();
+        personalDetailsActions = new PersonalDetailsActions();
+    }
+
+    @And("Employee edit personal details with following data")
+    public void employee_edit_personal_details_with_following_data(DataTable dataTable) {
+        List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+        personalDetailsActions.updatePersonalDetails(data);
+    }
+
+    @And("Employee forgot to click on Save button")
+    public void employee_forgot_to_click_on_save_button() {
+        //helper.driver.navigate().refresh();
+    }
+
+    @Then("Personal details should not saved successfully")
+    public void personal_details_should_not_saved_successfully() {
+        Assert.assertFalse(personalDetailsActions.isSuccessMessageDisplayed(),
+            "Success message should NOT appear as Save was not clicked!");
     }
 }
