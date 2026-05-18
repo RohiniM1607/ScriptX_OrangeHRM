@@ -21,8 +21,6 @@ public class ProfilePictureActions {
     }
 
     public void uploadProfilePicture(String filePath) {
-        wait.until(ExpectedConditions.elementToBeClickable(profilePicturePage.addIcon));
-        profilePicturePage.addIcon.click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
         ((JavascriptExecutor) HelperClass.driver).executeScript("arguments[0].style.display='block';", profilePicturePage.fileInput);
         profilePicturePage.fileInput.sendKeys(filePath);
