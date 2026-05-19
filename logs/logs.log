@@ -2805,3 +2805,135 @@
 [INFO ] 2026-05-19 17:08:35.115 [main] HelperClass - Capturing screenshot for failed scenario
 [INFO ] 2026-05-19 17:08:35.380 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Changing_the_profile_picture_without_saving.png
 [INFO ] 2026-05-19 17:08:35.380 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 17:17:40.548 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-05-19 17:17:40.553 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 17:17:42.259 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 17:17:42.355 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 17:17:50.458 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 17:17:50.458 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 17:17:51.089 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 17:17:51.089 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 17:17:51.296 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 17:17:51.296 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 17:18:01.337 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[INFO ] 2026-05-19 17:18:01.340 [main] HelperClass - Scenario passed: Upload profile picture successfully
+[INFO ] 2026-05-19 17:18:01.341 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 17:18:01.804 [main] Hooks - Starting Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-19 17:18:01.805 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 17:18:02.854 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 17:18:02.937 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 17:18:12.594 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 17:18:12.595 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 17:18:13.297 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 17:18:13.298 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 17:18:13.524 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 17:18:13.524 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 17:18:32.105 [main] Hooks - Ending Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-19 17:18:32.105 [main] HelperClass - Scenario passed: Changing the profile picture without saving
+[INFO ] 2026-05-19 17:18:32.106 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 22:26:32.409 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:26:32.416 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 22:26:39.750 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 22:26:39.812 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 22:27:06.157 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 22:27:06.158 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:27:07.412 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 22:27:07.412 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:27:07.538 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 22:27:07.538 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 22:28:06.309 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[ERROR] 2026-05-19 22:28:06.312 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 22:28:06.312 [main] HelperClass - Scenario failed: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:28:06.312 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 22:28:06.530 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_contact_details_and_add_attachment_successfully.png
+[INFO ] 2026-05-19 22:28:06.531 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 22:36:23.357 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:36:23.361 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 22:36:24.863 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 22:36:24.912 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 22:36:29.813 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 22:36:29.813 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:36:30.450 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 22:36:30.450 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:36:30.577 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 22:36:30.577 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 22:37:20.318 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[ERROR] 2026-05-19 22:37:20.320 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 22:37:20.320 [main] HelperClass - Scenario failed: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:37:20.320 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 22:37:20.612 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_contact_details_and_add_attachment_successfully.png
+[INFO ] 2026-05-19 22:37:20.613 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 22:44:49.965 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:44:49.970 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 22:44:51.677 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 22:44:51.720 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 22:45:44.458 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 22:45:44.459 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:45:45.024 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 22:45:45.025 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:45:45.155 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 22:45:45.155 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 22:46:01.339 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[ERROR] 2026-05-19 22:46:01.341 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 22:46:01.341 [main] HelperClass - Scenario failed: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:46:01.341 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 22:46:01.576 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_contact_details_and_add_attachment_successfully.png
+[INFO ] 2026-05-19 22:46:01.576 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 22:46:29.496 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:46:29.499 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 22:46:30.988 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 22:46:31.034 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 22:46:37.017 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 22:46:37.017 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:46:37.555 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 22:46:37.556 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:46:37.674 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 22:46:37.675 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 22:47:24.379 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[ERROR] 2026-05-19 22:47:24.381 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 22:47:24.381 [main] HelperClass - Scenario failed: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:47:24.381 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 22:47:24.673 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_contact_details_and_add_attachment_successfully.png
+[INFO ] 2026-05-19 22:47:24.673 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 22:47:49.499 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:47:49.502 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 22:47:50.936 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 22:47:50.981 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 22:47:54.036 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 22:47:54.037 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:47:54.581 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 22:47:54.581 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:47:54.727 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 22:47:54.727 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 22:48:10.632 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[ERROR] 2026-05-19 22:48:10.635 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 22:48:10.636 [main] HelperClass - Scenario failed: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:48:10.636 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 22:48:10.862 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_contact_details_and_add_attachment_successfully.png
+[INFO ] 2026-05-19 22:48:10.862 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 22:48:21.339 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:48:21.343 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 22:48:22.973 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 22:48:23.030 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 22:48:23.267 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:48:23.272 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 22:48:24.736 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 22:48:24.785 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 22:48:28.686 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 22:48:28.686 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:48:29.232 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 22:48:29.233 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:48:29.359 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 22:48:29.359 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:48:29.407 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 22:48:29.408 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 22:48:29.910 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 22:48:29.910 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 22:48:30.041 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 22:48:30.042 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 22:48:50.284 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:48:50.286 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:48:50.286 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 22:48:50.620 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:48:50.622 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-05-19 22:48:50.623 [main] HelperClass - Closing browser

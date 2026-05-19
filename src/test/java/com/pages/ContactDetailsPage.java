@@ -41,7 +41,7 @@ public class ContactDetailsPage extends BasePage {
     @FindBy(xpath = "//div[contains(@class,'oxd-toast-content')]//p[1]")
     public WebElement txtSuccessMessage;
 
-    @FindBy(xpath = "(//button[contains(@class,'oxd-button--text')])[last()]")
+    @FindBy(xpath = "//h6[text()='Attachments']/following::button[1]")
     public WebElement addIcon;
     
     @FindBy(xpath = "//div[text()='Browse']")
@@ -50,6 +50,6 @@ public class ContactDetailsPage extends BasePage {
     @FindBy(xpath = "//input[@type='file']")
     public WebElement fileInput;
 
-    @FindBy(xpath = "//div[@role='dialog']//button[normalize-space()='Save']")
-	public WebElement btnAttachmentSave;
+    @FindBy(xpath = "(//button[normalize-space()='Save'])[last()]")
+    public WebElement btnAttachmentSave;
 }
