@@ -35,24 +35,21 @@ public class ContactDetailsPage extends BasePage {
     @FindBy(xpath = "//label[text()='Work Email']/following::input[1]")
     public WebElement workEmail;
 
-    @FindBy(xpath = "(//button[normalize-space()='Save'])[1]")
+    @FindBy(xpath = "(//div[contains(@class,'orangehrm-card-container')])[1]//button[normalize-space()='Save']")
     public WebElement btnSave;
 
-    @FindBy(xpath = "//div[contains(@class,'oxd-toast ')]//p[contains(@class,'oxd-text')]")
+    @FindBy(xpath = "//div[contains(@class,'oxd-toast-content')]//p[1]")
     public WebElement txtSuccessMessage;
 
-    @FindBy(xpath = "//h6[text()='Attachments']/following::button[normalize-space()=' Add'][1]")
-    public WebElement btnAddAttachment;
+    @FindBy(xpath = "(//button[contains(@class,'oxd-button--text')])[last()]")
+    public WebElement addIcon;
+    
+    @FindBy(xpath = "//div[text()='Browse']")
+    public WebElement btnBrowse;
 
     @FindBy(xpath = "//input[@type='file']")
     public WebElement fileInput;
 
-    @FindBy(xpath = "//label[text()='Description']/following::textarea[1]")
-    public WebElement attachmentDescription;
-
-    @FindBy(xpath = "(//button[normalize-space()='Save'])[1]")
-    public WebElement btnAttachmentSave;
-
-    @FindBy(xpath = "//div[contains(@class,'oxd-toast ')]//p[contains(@class,'oxd-text')]")
-    public WebElement txtAttachmentSuccessMessage;
+    @FindBy(xpath = "//div[@role='dialog']//button[normalize-space()='Save']")
+	public WebElement btnAttachmentSave;
 }
