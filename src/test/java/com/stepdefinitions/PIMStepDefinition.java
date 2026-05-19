@@ -15,8 +15,6 @@ public class PIMStepDefinition {
 
 	PIMActions pim = new PIMActions();
 
-	// ================= ADD EMPLOYEE =================
-
 	@Given("admin is logged into OrangeHRM")
 	public void admin_is_logged_into_orangehrm() {
 
@@ -52,8 +50,6 @@ public class PIMStepDefinition {
 			Assert.assertTrue(pim.verifyRequiredMessage(), "Required message not displayed");
 		}
 	}
-
-	// ================= SEARCH EMPLOYEE =================
 
 	@Given("admin is logged into OrangeHRM search page")
 	public void admin_is_logged_into_orangehrm_search_page() {

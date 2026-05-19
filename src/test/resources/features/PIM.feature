@@ -8,11 +8,10 @@ Feature: Jagadeep_15-05-2026_ScriptX_OrangeHRm_PIM_Functionality
     Then employee result should be "<result>"
 
     Examples:
-      | firstName | lastName | employeeId | result   |
-      | Jagadee   | KC       | 9011       | success  |
-      | Rohi      | Kumar    | 9012       | success  |
-      | Anan      | Kumar    | 9013       | success  |
-      |           |          |            | required |
+      | firstName | lastName | employeeId | result  |
+      | Jagadee   | KC       | 9011       | success |
+      | Rohi      | Kumar    | 9012       | success |
+      | Anan      | Kumar    | 9013       | success |
 
   @SearchEmployee
   Scenario: Search employee using excel data

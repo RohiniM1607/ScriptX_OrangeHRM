@@ -10,8 +10,6 @@ public class PIMPage extends BasePage {
 
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
-	// ================= ADD EMPLOYEE =================
-
 	@FindBy(xpath = "//span[text()='PIM']")
 	WebElement pimMenu;
 
@@ -27,7 +25,7 @@ public class PIMPage extends BasePage {
 	@FindBy(xpath = "(//input[@class='oxd-input oxd-input--active'])[2]")
 	WebElement employeeIdTxt;
 
-	@FindBy(xpath = "//button[@type='submit']")
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div/form/div[2]/button[2]")
 	WebElement saveBtn;
 
 	@FindBy(xpath = "//h6[text()='Personal Details']")
@@ -35,8 +33,6 @@ public class PIMPage extends BasePage {
 
 	@FindBy(xpath = "//span[text()='Required']")
 	List<WebElement> requiredMsg;
-
-	// ================= SEARCH EMPLOYEE =================
 
 	@FindBy(xpath = "(//input[@placeholder='Type for hints...'])[1]")
 	WebElement employeeNameSearchTxt;
@@ -47,21 +43,21 @@ public class PIMPage extends BasePage {
 	@FindBy(xpath = "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']")
 	WebElement searchResultTable;
 
-	// ================= COMMON METHODS =================
-
 	public void clickByJS(WebElement element) {
+
+		helper.waitForElementToBeClickable(element);
 
 		js.executeScript("arguments[0].click();", element);
 	}
 
 	public void enterText(WebElement element, String value) {
 
+		helper.waitForElement(element);
+
 		element.clear();
 
 		element.sendKeys(value);
 	}
-
-	// ================= ADD EMPLOYEE METHODS =================
 
 	public void clickPIMMenu() {
 
@@ -97,6 +93,8 @@ public class PIMPage extends BasePage {
 
 		try {
 
+			helper.waitForElement(personalDetailsHeader);
+
 			return personalDetailsHeader.isDisplayed();
 		}
 
@@ -111,8 +109,6 @@ public class PIMPage extends BasePage {
 		return requiredMsg.size() > 0;
 	}
 
-	// ================= SEARCH EMPLOYEE METHODS =================
-
 	public void enterSearchEmployeeName(String employeeName) {
 
 		enterText(employeeNameSearchTxt, employeeName);
@@ -126,6 +122,8 @@ public class PIMPage extends BasePage {
 	public boolean isSearchResultDisplayed() {
 
 		try {
+
+			helper.waitForElement(searchResultTable);
 
 			return searchResultTable.isDisplayed();
 		}

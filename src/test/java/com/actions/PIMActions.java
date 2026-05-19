@@ -1,15 +1,13 @@
 package com.actions;
 
 import com.pages.PIMPage;
-import com.utilities.ExcelReader;
+import com.utilities.ExcelUtility;
 
 public class PIMActions extends BaseActions {
 
 	PIMPage pimPage = new PIMPage();
 
-	ExcelReader excel = new ExcelReader("src/test/resources/testdata/PIMData.xlsx");
-
-	// ================= ADD EMPLOYEE =================
+	ExcelUtility excel = new ExcelUtility("src/test/resources/testdata/PIMData.xlsx");
 
 	public void navigateToAddEmployee() {
 
@@ -41,8 +39,6 @@ public class PIMActions extends BaseActions {
 
 		return pimPage.isRequiredMessageDisplayed();
 	}
-
-	// ================= SEARCH EMPLOYEE =================
 
 	public void navigateToSearchEmployee() {
 
