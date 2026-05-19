@@ -48,6 +48,7 @@ public class CreateUserCredentialsSteps {
         String confirmPassword = getCellValue(data[0][5]);
 
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
+        createUserActions.clickSaveButton();
     }
 
 
