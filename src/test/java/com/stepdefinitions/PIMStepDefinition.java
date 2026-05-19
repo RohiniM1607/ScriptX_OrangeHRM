@@ -1,10 +1,14 @@
 package com.stepdefinitions;
 
+import java.util.List;
+import java.util.Map;
+
 import org.testng.Assert;
 
 import com.actions.LoginActions;
 import com.actions.PIMActions;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,29 +29,38 @@ public class PIMStepDefinition {
 		pim.navigateToAddEmployee();
 	}
 
-	@When("admin enters employee details {string} {string} {string}")
-	public void admin_enters_employee_details(String firstName, String lastName, String employeeId) {
+	@When("admin creates employees with following data")
+	public void admin_creates_employees_with_following_data(DataTable dataTable) {
 
-		pim.enterEmployeeDetails(firstName, lastName, employeeId);
-	}
+		for (Map<String, String> data : dataTable.asMaps()) {
 
-	@When("admin clicks save button")
-	public void admin_clicks_save_button() {
+			String firstName = data.get("firstName");
+			String lastName = data.get("lastName");
+			String employeeId = data.get("employeeId");
+			String result = data.get("result");
 
-		pim.clickSaveButton();
-	}
+			pim.navigateToAddEmployee();
 
-	@Then("employee result should be {string}")
-	public void employee_result_should_be(String result) {
+			if (firstName == null)
+				firstName = "";
+			if (lastName == null)
+				lastName = "";
+			if (employeeId == null)
+				employeeId = "";
 
-		if (result.equalsIgnoreCase("success")) {
+			pim.enterEmployeeDetails(firstName, lastName, employeeId);
 
-			Assert.assertTrue(pim.verifyEmployeeCreated(), "Employee creation failed");
-		}
+			pim.clickSaveButton();
 
-		else if (result.equalsIgnoreCase("required")) {
+			if (result.equalsIgnoreCase("success")) {
 
-			Assert.assertTrue(pim.verifyRequiredMessage(), "Required message not displayed");
+				Assert.assertTrue(pim.verifyEmployeeCreated());
+
+			} else {
+
+				Assert.assertTrue(pim.verifyRequiredMessage());
+
+			}
 		}
 	}
 
@@ -61,15 +74,39 @@ public class PIMStepDefinition {
 		pim.navigateToSearchEmployee();
 	}
 
-	@When("admin searches employee using excel data")
-	public void admin_searches_employee_using_excel_data() {
+	@When("admin searches employee by employee name")
+	public void admin_searches_employee_by_employee_name() {
 
-		pim.searchEmployeeUsingExcelData();
+		pim.searchEmployeeByName();
 	}
 
-	@Then("verify employee search results")
-	public void verify_employee_search_results() {
+	@When("admin searches employee by employee ID")
+	public void admin_searches_employee_by_employee_id() {
+
+		pim.searchEmployeeById();
+	}
+
+	@When("admin searches employee with invalid employee name")
+	public void admin_searches_employee_with_invalid_employee_name() {
+
+		pim.searchInvalidEmployeeName();
+	}
+
+	@When("admin searches employee with invalid employee ID")
+	public void admin_searches_employee_with_invalid_employee_id() {
+
+		pim.searchInvalidEmployeeId();
+	}
+
+	@Then("employee search result should be displayed")
+	public void employee_search_result_should_be_displayed() {
 
 		Assert.assertTrue(pim.verifySearchSuccess(), "Employee search failed");
+	}
+
+	@Then("no employee records should be displayed")
+	public void no_employee_records_should_be_displayed() {
+
+		Assert.assertTrue(pim.verifyNoRecordsFound(), "Records found unexpectedly");
 	}
 }

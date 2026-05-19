@@ -45,7 +45,7 @@ public class PIMActions extends BaseActions {
 		pimPage.clickPIMMenu();
 	}
 
-	public void searchEmployeeUsingExcelData() {
+	public void searchEmployeeByName() {
 
 		String employeeName = excel.getData("SearchEmployee", 1, 0);
 
@@ -54,8 +54,40 @@ public class PIMActions extends BaseActions {
 		pimPage.clickSearchButton();
 	}
 
+	public void searchEmployeeById() {
+
+		String employeeId = excel.getData("SearchEmployee", 1, 1);
+
+		pimPage.enterSearchEmployeeName(employeeId);
+
+		pimPage.clickSearchButton();
+	}
+
+	public void searchInvalidEmployeeName() {
+
+		String employeeName = excel.getData("SearchEmployee", 4, 0);
+
+		pimPage.enterSearchEmployeeName(employeeName);
+
+		pimPage.clickSearchButton();
+	}
+
+	public void searchInvalidEmployeeId() {
+
+		String employeeId = excel.getData("SearchEmployee", 4, 1);
+
+		pimPage.enterSearchEmployeeName(employeeId);
+
+		pimPage.clickSearchButton();
+	}
+
 	public boolean verifySearchSuccess() {
 
 		return pimPage.isSearchResultDisplayed();
+	}
+
+	public boolean verifyNoRecordsFound() {
+
+		return pimPage.isNoRecordFoundDisplayed();
 	}
 }

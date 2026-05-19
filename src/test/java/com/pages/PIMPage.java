@@ -37,11 +37,14 @@ public class PIMPage extends BasePage {
 	@FindBy(xpath = "(//input[@placeholder='Type for hints...'])[1]")
 	WebElement employeeNameSearchTxt;
 
-	@FindBy(xpath = "//button[@type='submit']")
+	@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[2]/button[2]")
 	WebElement searchBtn;
 
 	@FindBy(xpath = "//div[@class='orangehrm-horizontal-padding orangehrm-vertical-padding']")
 	WebElement searchResultTable;
+
+	@FindBy(xpath = "//*[text()='No Records Found']")
+	WebElement noRecordsFoundTxt;
 
 	public void clickByJS(WebElement element) {
 
@@ -126,6 +129,20 @@ public class PIMPage extends BasePage {
 			helper.waitForElement(searchResultTable);
 
 			return searchResultTable.isDisplayed();
+		}
+
+		catch (Exception e) {
+
+			return false;
+		}
+	}
+
+	public boolean isNoRecordFoundDisplayed() {
+
+		try {
+			
+			helper.waitForElement(noRecordsFoundTxt);
+			return noRecordsFoundTxt.isDisplayed();
 		}
 
 		catch (Exception e) {

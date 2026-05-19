@@ -1,20 +1,36 @@
 Feature: Jagadeep_15-05-2026_ScriptX_OrangeHRm_PIM_Functionality
 
   @CreateEmployee
-  Scenario Outline: Create employee with multiple data combinations
+  Scenario: Create employee with multiple data combinations
     Given admin is logged into OrangeHRM
-    When admin enters employee details "<firstName>" "<lastName>" "<employeeId>"
-    And admin clicks save button
-    Then employee result should be "<result>"
+    When admin creates employees with following data
+      | firstName | lastName | employeeId | result   |
+      | Jagadeep  | KC       | 9011       | success  |
+      | Rohit     | Kumar    | 9012       | success  |
+      | Anand     | Kumar    | 9013       | success  |
+      |           |          |            | required |
+      | Jaga@123  | K%C      | 9014       | success  |
 
-    Examples:
-      | firstName | lastName | employeeId | result  |
-      | Jagadee   | KC       | 9011       | success |
-      | Rohi      | Kumar    | 9012       | success |
-      | Anan      | Kumar    | 9013       | success |
-
-  @SearchEmployee
-  Scenario: Search employee using excel data
+  @SearchByEmployeeName
+  Scenario: Search employee by employee name
     Given admin is logged into OrangeHRM search page
-    When admin searches employee using excel data
-    Then verify employee search results
+    When admin searches employee by employee name
+    Then employee search result should be displayed
+
+  @SearchByEmployeeId
+  Scenario: Search employee by employee ID
+    Given admin is logged into OrangeHRM search page
+    When admin searches employee by employee ID
+    Then employee search result should be displayed
+
+  @InvalidEmployeeName
+  Scenario: Search employee with invalid employee name
+    Given admin is logged into OrangeHRM search page
+    When admin searches employee with invalid employee name
+    Then no employee records should be displayed
+
+  @InvalidEmployeeId
+  Scenario: Search employee with invalid employee ID
+    Given admin is logged into OrangeHRM search page
+    When admin searches employee with invalid employee ID
+    Then no employee records should be displayed
