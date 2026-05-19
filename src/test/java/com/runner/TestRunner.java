@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/features/AdminLeaveManagement_LeaveApprovel.feature", 
+		features = "src/test/resources/features", 
 
 		glue = { "com.stepdefinitions","com.hooks" }, 
 		plugin = { "pretty", "html:target/CucumberReports/Cucumber.html",
@@ -15,8 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 
 		monochrome = true,
 
-		publish = true,
-		 tags = "@Rohini")
+		publish = true)
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
