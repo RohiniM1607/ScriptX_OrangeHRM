@@ -1758,3 +1758,26 @@
 [INFO ] 2026-05-18 19:49:01.925 [main] Hooks - Ending Scenario: Update contact details with valid data
 [INFO ] 2026-05-18 19:49:01.928 [main] HelperClass - Scenario passed: Update contact details with valid data
 [INFO ] 2026-05-18 19:49:01.928 [main] HelperClass - Closing browser
+[INFO ] 2026-05-18 22:24:32.457 [main] Hooks - Starting Scenario: Add attachment in contact details
+[INFO ] 2026-05-18 22:24:32.465 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-18 22:24:41.683 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-18 22:24:41.767 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-18 22:25:03.617 [main] Hooks - Ending Scenario: Add attachment in contact details
+[INFO ] 2026-05-18 22:25:03.621 [main] HelperClass - Scenario passed: Add attachment in contact details
+[INFO ] 2026-05-18 22:25:03.621 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 08:26:49.845 [main] Hooks - Starting Scenario: Add attachment in contact details
+[INFO ] 2026-05-19 08:26:49.851 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 08:26:58.230 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 08:26:58.348 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 08:27:21.445 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-19 08:27:21.447 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 08:27:22.926 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-19 08:27:22.926 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 08:27:23.167 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 08:27:23.168 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 08:27:56.879 [main] Hooks - Ending Scenario: Add attachment in contact details
+[ERROR] 2026-05-19 08:27:56.881 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-19 08:27:56.882 [main] HelperClass - Scenario failed: Add attachment in contact details
+[INFO ] 2026-05-19 08:27:56.882 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-19 08:27:57.289 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_attachment_in_contact_details.png
+[INFO ] 2026-05-19 08:27:57.289 [main] HelperClass - Closing browser
