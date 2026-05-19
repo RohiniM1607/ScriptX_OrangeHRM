@@ -2389,3 +2389,38 @@
 [INFO ] 2026-05-19 10:55:39.496 [main] Hooks - Ending Scenario: Create user without mandatory fields
 [INFO ] 2026-05-19 10:55:39.498 [main] HelperClass - Scenario passed: Create user without mandatory fields
 [INFO ] 2026-05-19 10:55:39.499 [main] HelperClass - Closing browser
+[INFO ] 2026-05-19 11:11:04.540 [main] Hooks - Starting Scenario: Create user without mandatory fields
+[INFO ] 2026-05-19 11:11:04.608 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-19 11:11:08.641 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-19 11:11:08.711 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-19 11:11:14.393 [main] HelperClass - Entering text: Admin
+[INFO ] 2026-05-19 11:11:14.394 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 11:11:16.297 [main] HelperClass - Entering text: admin123
+[INFO ] 2026-05-19 11:11:16.297 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 11:11:16.834 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 11:11:16.834 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 11:11:21.153 [main] CreateUserCredentialsActions - Navigating to Admin User Management page
+[INFO ] 2026-05-19 11:11:21.155 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 11:11:21.156 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 11:11:26.475 [main] CreateUserCredentialsActions - Clicking Add button
+[INFO ] 2026-05-19 11:11:26.476 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 11:11:26.476 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 11:11:29.326 [main] CreateUserCredentialsActions - Verifying Add User page is displayed
+[INFO ] 2026-05-19 11:11:29.327 [main] HelperClass - Waiting for element visibility
+[DEBUG] 2026-05-19 11:11:30.947 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-19 11:11:30.959 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-19 11:11:32.097 [main] CreateUserCredentialsActions - Entering user credential details
+[INFO ] 2026-05-19 11:11:32.097 [main] CreateUserCredentialsActions - Role: Admin
+[INFO ] 2026-05-19 11:11:32.098 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 11:11:32.098 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 11:11:33.356 [main] CreateUserCredentialsActions - Status: Enabled
+[INFO ] 2026-05-19 11:11:33.356 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 11:11:33.356 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 11:11:34.583 [main] CreateUserCredentialsActions - Clicking Save button
+[INFO ] 2026-05-19 11:11:34.584 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-19 11:11:34.585 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-19 11:11:34.951 [main] CreateUserCredentialsActions - Verifying required validation message is displayed
+[INFO ] 2026-05-19 11:11:35.014 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-19 11:11:35.148 [main] Hooks - Ending Scenario: Create user without mandatory fields
+[INFO ] 2026-05-19 11:11:35.152 [main] HelperClass - Scenario passed: Create user without mandatory fields
+[INFO ] 2026-05-19 11:11:35.153 [main] HelperClass - Closing browser
