@@ -16,7 +16,8 @@ public class ConfigReader {
             FileInputStream fis = new FileInputStream("src/test/resources/properties/" + fileName);
             properties.load(fis);
             fis.close();
-        } catch (IOException e) {
+        } 
+        catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException("Unable to load property file: " + fileName);
         }

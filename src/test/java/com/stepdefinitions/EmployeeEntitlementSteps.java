@@ -17,14 +17,10 @@ public class EmployeeEntitlementSteps {
 
     @Given("user is on OrangeHRM Leave Entitlements page")
     public void user_is_on_orange_hrm_leave_entitlements_page() {
-
         employeeEntitlementActions = new EmployeeEntitlementActions();
         employeeEntitlementActions.navigateToEmployeeEntitlementsPage();
 
-        Assert.assertTrue(
-                employeeEntitlementActions.verifyEmployeeEntitlementsPageDisplayed(),
-                "Employee Entitlements page is not displayed"
-        );
+        Assert.assertTrue(employeeEntitlementActions.verifyEmployeeEntitlementsPageDisplayed(),"Employee Entitlements page is not displayed");
     }
 
     @When("user searches employee entitlement")
@@ -35,11 +31,7 @@ public class EmployeeEntitlementSteps {
 
     @Then("employee entitlement search result should be displayed")
     public void employee_entitlement_search_result_should_be_displayed() {
-
-        Assert.assertTrue(
-                employeeEntitlementActions.verifySearchResultDisplayed(),
-                "Employee entitlement search result is not displayed"
-        );
+        Assert.assertTrue(employeeEntitlementActions.verifySearchResultDisplayed(), "Employee entitlement search result is not displayed");
     }
 
     @When("user searches entitlement with invalid employee name {string}")
@@ -50,25 +42,16 @@ public class EmployeeEntitlementSteps {
 
     @Then("invalid employee name validation should be displayed")
     public void invalid_employee_name_validation_should_be_displayed() {
-
-        Assert.assertTrue(
-                employeeEntitlementActions.verifyInvalidEmployeeValidationDisplayed(),
-                "Invalid employee name validation message is not displayed"
-        );
+        Assert.assertTrue(employeeEntitlementActions.verifyInvalidEmployeeValidationDisplayed(), "Invalid employee name validation message is not displayed");
     }
 
     @When("user searches entitlement without employee name")
     public void user_searches_entitlement_without_employee_name() throws IOException {
-
         employeeEntitlementActions.searchWithoutEmployeeName();
     }
 
     @Then("required employee name validation should be displayed")
     public void required_employee_name_validation_should_be_displayed() {
-
-        Assert.assertTrue(
-                employeeEntitlementActions.verifyRequiredEmployeeNameValidationDisplayed(),
-                "Required employee name validation message is not displayed"
-        );
+        Assert.assertTrue(employeeEntitlementActions.verifyRequiredEmployeeNameValidationDisplayed(),"Required employee name validation message is not displayed");
     }
 }

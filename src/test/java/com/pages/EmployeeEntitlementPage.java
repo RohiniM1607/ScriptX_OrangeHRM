@@ -82,13 +82,13 @@ public class EmployeeEntitlementPage extends BasePage {
         try {
             helper.waitForElementLocated(By.xpath("//div[@role='listbox']//span"));
             actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofSeconds(1)).sendKeys(Keys.ENTER).perform();
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             System.out.println("Employee suggestion not selected: " + e.getMessage());
         }
     }
 
     public void enterInvalidEmployeeName(String employeeName) {
-
         helper.clickElement(employeeNameInput);
         employeeNameInput.clear();
         employeeNameInput.sendKeys(employeeName);
@@ -96,51 +96,22 @@ public class EmployeeEntitlementPage extends BasePage {
     }
 
     public void selectLeaveType(String leaveType) {
-
         helper.clickElement(leaveTypeDropdown);
-
         if (leaveType.equalsIgnoreCase("CAN - Maternity")) {
-
-            actions
-                .sendKeys(Keys.ARROW_DOWN)
-                .pause(Duration.ofMillis(500))
-                .sendKeys(Keys.ENTER)
-                .perform();
-
-        } else if (leaveType.equalsIgnoreCase("CAN - Personal")) {
-
-            actions
-                .sendKeys(Keys.ARROW_DOWN)
-                .pause(Duration.ofMillis(500))
-                .sendKeys(Keys.ARROW_DOWN)
-                .pause(Duration.ofMillis(500))
-                .sendKeys(Keys.ENTER)
-                .perform();
-
-        } else if (leaveType.equalsIgnoreCase("CAN - Vacation")) {
-
-            actions
-                .sendKeys(Keys.ARROW_DOWN)
-                .pause(Duration.ofMillis(500))
-                .sendKeys(Keys.ARROW_DOWN)
-                .pause(Duration.ofMillis(500))
-                .sendKeys(Keys.ARROW_DOWN)
-                .pause(Duration.ofMillis(500))
-                .sendKeys(Keys.ENTER)
-                .perform();
-
-        } else {
-
-            actions
-                .sendKeys(Keys.ARROW_DOWN)
-                .pause(Duration.ofMillis(500))
-                .sendKeys(Keys.ENTER)
-                .perform();
+            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ENTER).perform();
+        } 
+        else if (leaveType.equalsIgnoreCase("CAN - Personal")) {
+            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ENTER).perform();
+        }
+        else if (leaveType.equalsIgnoreCase("CAN - Vacation")) {
+            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ENTER).perform();
+        } 
+        else {
+            actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).sendKeys(Keys.ENTER).perform();
         }
     }
 
     public void selectLeavePeriod(String leavePeriod) {
-
         helper.clickElement(leavePeriodDropdown);
 
         By optionLocator = By.xpath("//div[@role='listbox']//span[text()='" + leavePeriod + "']");
@@ -158,19 +129,16 @@ public class EmployeeEntitlementPage extends BasePage {
     }
 
     public boolean isSearchResultDisplayed() {
-
         helper.waitForElement(searchResultContainer);
         return searchResultContainer.isDisplayed();
     }
 
     public boolean isInvalidValidationDisplayed() {
-
         helper.waitForElement(invalidValidationMessage);
         return invalidValidationMessage.isDisplayed();
     }
 
     public boolean isRequiredValidationDisplayed() {
-
         helper.waitForElement(requiredValidationMessage);
         return requiredValidationMessage.isDisplayed();
     }

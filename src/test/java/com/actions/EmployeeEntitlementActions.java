@@ -30,7 +30,8 @@ public class EmployeeEntitlementActions {
 
         try {
             employeeEntitlementPage.navigateToLeaveEntitlementsPage();
-        } catch (Exception e) {
+        } 
+        catch (Exception e) {
             logger.error("Failed to navigate to Employee Entitlements page", e);
             throw e;
         }
@@ -53,7 +54,7 @@ public class EmployeeEntitlementActions {
         String leavePeriod = "";
 
         if (fields.contains("employeeName")) {
-            employeeName = entitlementReader.getData("employeeName");
+            employeeName = entitlementReader.getData("entitlementEmployeeName");
         }
 
         if (fields.contains("leaveType")) {
@@ -115,10 +116,7 @@ public class EmployeeEntitlementActions {
 
         DP_Excel excel = new DP_Excel();
 
-        Object[][] data = excel.getExcelData(
-                "src/test/resources/testdata/EmployeeEntitlement.xlsx",
-                "Sheet1"
-        );
+        Object[][] data = excel.getExcelData("src/test/resources/testdata/EmployeeEntitlement.xlsx","Sheet1"); 
 
         String employeeName = getCellValue(data[0][0]);
         String leaveType = getCellValue(data[0][1]);

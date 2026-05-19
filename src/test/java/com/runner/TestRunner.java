@@ -13,16 +13,20 @@ import io.cucumber.testng.CucumberOptions;
         },
         plugin = {
                 "pretty",
-                "html:target/cucumber-reports/cucumber.html",
-                "json:target/cucumber-reports/cucumber.json"
+                "html:target/CucumberReports/Cucumber.html",
+                "json:target/CucumberReports/Cucumber.json",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         tags = "@EmployeeEntitlements",
-        monochrome = true
+        monochrome = true,
+        publish = true
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
-	@Override
+
+    @Override
     @DataProvider(parallel = true)
     public Object[][] scenarios() {
         return super.scenarios();
-	}
+    }
 }
