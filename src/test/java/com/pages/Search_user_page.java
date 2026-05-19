@@ -9,10 +9,10 @@ public class Search_user_page extends BasePage {
     @FindBy(xpath = "//a[@class='oxd-main-menu-item active']")
     public WebElement Admin_page;
 
-    @FindBy(xpath = "//div[@class=\"oxd-input-group__label-wrapper\"]/following-sibling::div/input")
+    @FindBy(xpath = "//label[text()='Username']/ancestor::div[contains(@class,'oxd-input-group')]//input")
     public WebElement username_field;
 
-    @FindBy(xpath="//h5[@class='oxd-text oxd-text--h5 oxd-table-filter-title']")
+    @FindBy(xpath="//h5[text()='System Users']")
     public WebElement system_user;
     
     @FindBy(xpath = "//label[normalize-space()='User Role']/../..//div[@class='oxd-select-text-input']")
@@ -22,7 +22,10 @@ public class Search_user_page extends BasePage {
     public List<WebElement> userRoleOptions;
 
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
-    public WebElement employeeName;
+    public WebElement employeeName;  
+    
+    @FindBy(xpath = "//div[@role='listbox']//div[@role='option']")
+    public List<WebElement> employeeSuggestions;
 
     @FindBy(css = "button[type='submit']")
     public WebElement search_btn;
@@ -39,6 +42,4 @@ public class Search_user_page extends BasePage {
     @FindBy(xpath = "//div[@role='listbox']")
     public WebElement listbox;
 
-    @FindBy(xpath = "//div[@role='listbox']//div[@role='option']")
-    public List<WebElement> employeeSuggestions;
 }
