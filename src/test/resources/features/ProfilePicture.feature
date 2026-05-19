@@ -8,24 +8,16 @@ Feature: Reshma_17May2026_ScriptX_OrangeHRM File for ProfilePicture
     And Employee clicks on login
     And the Employee is on the OrangeHRM Dashboard page
 
-  @ReshmaProfilePicture
-  Scenario Outline: Upload profile picture successfully
+  @ReshmaProfilePicture @Reshma
+  Scenario: Upload profile picture successfully
     When Employee navigates to Profile Picture page
-    And Employee uploads a profile picture with "<FilePath>"
+    And Employee uploads a profile picture with "\\src\\test\\resources\\profile.jpg"
     And Employee clicks on the Save button
-    Then Profile picture should be uploaded successfully with "<SuccessMessage>"
+    Then Profile picture should be uploaded successfully with "Success"
 
-    Examples:
-      | FilePath                                    | SuccessMessage |
-      | C:\Users\Reshma\Desktop\RESHMA\profile.jpg  | Success        |
-
-  @InvalidReshmaProfilePicture
-  Scenario Outline: Changing the profile picture without saving
+  @InvalidReshmaProfilePicture @Reshma
+  Scenario: Changing the profile picture without saving
     When Employee moves to Profile Picture page
-    And Employee uploads a profile picture using "<FilePath>"
+    And Employee uploads a profile picture using "\\src\\test\\resources\\profile1.jpg"
     And Employee forgot to click on the Save button
-    Then Profile picture should not be updated with "<ErrorMessage>"
-
-    Examples:
-      | FilePath                                     | ErrorMessage                                          |
-      | C:\Users\Reshma\Desktop\RESHMA\profile1.jpg  | Success message should NOT appear as Save was not clicked! |
+    Then Profile picture should not be updated with "Success message should not appear"

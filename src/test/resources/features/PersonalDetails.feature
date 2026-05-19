@@ -8,7 +8,7 @@
     And Employee clicks on login button
     And the Employee is on the Dashboard page
 
-  @Reshma
+  @Reshmavalid @Reshma
   Scenario: Update personal details with valid data
     When Employee navigates to My Info page
     And Employee updates personal details with following data
@@ -17,7 +17,7 @@
     And Employee clicks on Save button
     Then Personal details should be updated successfully
     
-  @InvalidReshma
+  @InvalidReshma @Reshma
   Scenario: Edit personal details without saving changes
     When Employee moves to My Info page
     And Employee edit personal details with following data

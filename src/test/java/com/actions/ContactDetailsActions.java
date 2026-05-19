@@ -82,9 +82,7 @@ public class ContactDetailsActions {
     }
 
     public void selectDropdown(String value) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//div[@role='listbox']//span[text()='" + value + "']")))
-                .click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='listbox']//span[text()='" + value + "']"))).click();
     }
 
     public void clickSave() {

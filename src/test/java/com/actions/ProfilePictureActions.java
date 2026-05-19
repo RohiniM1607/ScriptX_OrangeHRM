@@ -14,16 +14,24 @@ public class ProfilePictureActions {
 
     ProfilePicturePage profilePicturePage;
     WebDriverWait wait;
+    HelperClass helper = new HelperClass();
 
     public ProfilePictureActions() {
         this.profilePicturePage = new ProfilePicturePage();
-        wait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(10));
+        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
     }
 
-    public void uploadProfilePicture(String filePath) {
+    public void uploadProfilePicture(String relativePath) {
+        String absolutePath = System.getProperty("user.dir") + relativePath;
+
+        wait.until(ExpectedConditions.elementToBeClickable(profilePicturePage.addIcon));
+        profilePicturePage.addIcon.click();
+
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
-        ((JavascriptExecutor) HelperClass.driver).executeScript("arguments[0].style.display='block';", profilePicturePage.fileInput);
-        profilePicturePage.fileInput.sendKeys(filePath);
+
+        ((JavascriptExecutor) helper.getDriver()).executeScript("arguments[0].style.display='block';", profilePicturePage.fileInput);
+
+        profilePicturePage.fileInput.sendKeys(absolutePath);
     }
 
     public void clickSave() {
@@ -32,18 +40,17 @@ public class ProfilePictureActions {
     }
 
     public String getSuccessMessage() {
-        WebDriverWait MWait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(15));
-        return MWait.until(ExpectedConditions.visibilityOf(profilePicturePage.txtSuccessMessage)).getText().trim();
+        return wait.until(ExpectedConditions.visibilityOf(profilePicturePage.txtSuccessMessage))
+                .getText().trim();
     }
 
     public boolean isSuccessMessageDisplayed() {
         try {
-            WebDriverWait wait = new WebDriverWait(HelperClass.driver, Duration.ofSeconds(5));
-            wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
+            WebDriverWait shortWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(5));
+            shortWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
             return true;
         } catch (Exception e) {
             return false;
         }
     }
-
 }
