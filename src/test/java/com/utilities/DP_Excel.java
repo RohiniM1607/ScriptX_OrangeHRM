@@ -38,4 +38,8 @@ public class DP_Excel {
 
         return data;
     }
-}
+   
+        public Object[][] getLeaveData() throws IOException {
+            return getExcelData("src/test/resources/testdata/OrangeHRM.xlsx","Leave Test data");
+        }
+    }

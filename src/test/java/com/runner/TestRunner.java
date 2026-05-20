@@ -21,12 +21,8 @@ import io.cucumber.testng.CucumberOptions;
         tags = "@EmployeeEntitlements",
         monochrome = true,
         publish = true
-)
+        )
 public class TestRunner extends AbstractTestNGCucumberTests {
+}
 
-    @Override
-    @DataProvider(parallel = true)
-    public Object[][] scenarios() {
-        return super.scenarios();
-    }
 }

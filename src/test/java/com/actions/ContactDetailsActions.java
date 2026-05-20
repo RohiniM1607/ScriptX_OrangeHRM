@@ -1,6 +1,4 @@
 package com.actions;
-
-import java.io.File;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -82,9 +80,7 @@ public class ContactDetailsActions {
     }
 
     public void selectDropdown(String value) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//div[@role='listbox']//span[text()='" + value + "']")))
-                .click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='listbox']//span[text()='" + value + "']"))).click();
     }
 
     public void clickSave() {
@@ -114,10 +110,7 @@ public class ContactDetailsActions {
 
     public String getSuccessMessage() {
         WebDriverWait msgWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
-
-        WebElement msg = msgWait.until(ExpectedConditions.visibilityOfElementLocated(
-                By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
-
+        WebElement msg = msgWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
         return msg.getText().trim();
     }
 }

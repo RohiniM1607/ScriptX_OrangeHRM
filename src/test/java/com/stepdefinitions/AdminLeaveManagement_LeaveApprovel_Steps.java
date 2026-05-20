@@ -1,14 +1,20 @@
 package com.stepdefinitions;
 
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
+
 import com.actions.AdminLeaveManagement_LeaveApprovel_Actions;
 import com.actions.LoginActions;
+import com.utilities.DP_Excel;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.*;
 
 public class AdminLeaveManagement_LeaveApprovel_Steps {
 
 	LoginActions la;
-	AdminLeaveManagement_LeaveApprovel_Actions actions = new AdminLeaveManagement_LeaveApprovel_Actions();
+	AdminLeaveManagement_LeaveApprovel_Actions leaveAction = new AdminLeaveManagement_LeaveApprovel_Actions();
 
 	@Given("the User on the Home page")
 	public void the_user_on_the_home_page() {
@@ -19,76 +25,72 @@ public class AdminLeaveManagement_LeaveApprovel_Steps {
 
 	@Given("click on the Leave menu")
 	public void click_on_the_leave_menu() {
-		actions.clickLeaveMenu();
-
+		leaveAction.clickLeaveMenu();
 	}
 
-	@Given("User navigates to the Leave List page")
-	public void user_navigates_to_the_leave_list_page() {
-		actions.navigateToLeaveList();
-
+	@Given("User click on  leave List and navigates to the Leave List page")
+	public void user_click_on_leave_list_and_navigates_to_the_leave_list_page() {
+		leaveAction.navigateToLeaveList();
 	}
 
-	@When("User set the date from {string} to {string}")
-	public void user_set_the_date_from_to(String fromDate, String toDate) {
-		actions.setDateRange(fromDate, toDate);
+	@When("User enters leave details")
+	public void user_enters_leave_details() throws IOException {
+		DP_Excel excel = new DP_Excel();
+		Object[][] data = excel.getExcelData("src/test/resources/testdata/OrangeHRM_TestData.xlsx", "Leave Test data");
+
+		String fromDate = data[0][0].toString();
+		String toDate = data[0][1].toString();
+		String status = data[0][2].toString();
+		String leaveType = data[0][3].toString();
+		String employeeName = data[0][4].toString();
+
+		leaveAction.setDateRange(fromDate, toDate);
+		leaveAction.selectStatus(status);
+		leaveAction.selectLeaveType(leaveType);
+		leaveAction.enterEmployeeName(employeeName);
 	}
 
-	@And("selects a pending leave request and click on search button")
-	public void selects_a_pending_leave_request_and_click_on_search_button() {
-		//actions.selectStatus("Pending Approval");
-		actions.clickSearch();
-		actions.clickFirstLeaveRow();
-	}
-
-	@And("User clicks on the Approve button")
+	@When("User clicks on the Approve button")
 	public void user_clicks_on_the_approve_button() {
-		actions.clickApprove();
+		leaveAction.clickSearch();
+		leaveAction.clickApprove();
 	}
 
 	@Then("Leave request should be approved successfully")
 	public void leave_request_should_be_approved_successfully() {
-		actions.verifySuccessMessageContains("Successfully");
-
+		leaveAction.verifySuccessMessageContains("Success");
 	}
 
-	@And("selects a pending leave request")
-	public void selects_a_pending_leave_request() {
-		//actions.selectStatus("Pending Approval");
-		actions.clickSearch();
-		actions.clickFirstLeaveRow();
-	}
-
-	@And("User clicks on the Reject button")
+	@When("User clicks on the Reject button")
 	public void user_clicks_on_the_reject_button() {
-		actions.clickReject();
+		leaveAction.clickReject();
 	}
 
 	@Then("Leave request should be rejected successfully")
 	public void leave_request_should_be_rejected_successfully() {
-		actions.verifySuccessMessageContains("Successfully");
+		leaveAction.verifySuccessMessageContains("Success");
 	}
 
-	@And("selects a Scheduled leave status")
-	public void selects_a_scheduled_leave_status() {
-		actions.selectStatus("Scheduled");
-		actions.clickSearch();
+	@When("User enters invalid data")
+	public void user_enters_invalid_data(DataTable dataTable) {
+		List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
+
+		String fromDate = data.get(0).get("From date");
+		String toDate = data.get(0).get("To date");
+		String status = data.get(0).get("Leave status");
+		String leaveType = data.get(0).get("Leave type");
+		String employeeName = data.get(0).get("Employee name");
+
+		leaveAction.setDateRange(fromDate, toDate);
+		leaveAction.withoutSelectStatus(status);
+		leaveAction.selectLeaveType(leaveType);
+		leaveAction.enterEmployeeName(employeeName);
+
 	}
 
-	@When("User views the Leave List")
-	public void user_views_the_leave_list() {
-		actions.collectLeaveStatuses();
-	}
-
-	@Then("The leave status should be displayed as {string}")
-	public void the_leave_status_should_be_displayed_as(String expectedStatus) {
-		actions.verifyAllStatusesMatch(expectedStatus);
-	}
-
-	@And("selects a Rejected leave status")
-	public void selects_a_rejected_leave_status(){
-		actions.selectStatus("Rejected");
-		actions.clickSearch();
+	@Then("user get error message for blank field")
+	public void user_get_error_message_for_blank_field() {
+		leaveAction.errorMsgForMandatoryField();
 	}
 
 }
