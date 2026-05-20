@@ -42,15 +42,12 @@ public class PIMActions extends BaseActions {
 		pimPage.clickPIMMenu();
 	}
 
-
 	public void searchEmployeeByName(String employeeName) {
 
 		pimPage.enterSearchEmployeeName(employeeName);
 
 		pimPage.clickSearchButton();
 	}
-
-
 
 	public void searchEmployeeById(String employeeId) {
 
@@ -59,15 +56,12 @@ public class PIMActions extends BaseActions {
 		pimPage.clickSearchButton();
 	}
 
-
 	public void searchInvalidEmployeeName(String employeeName) {
 
 		pimPage.enterSearchEmployeeName(employeeName);
 
 		pimPage.clickSearchButton();
 	}
-
-
 
 	public void searchInvalidEmployeeId(String employeeId) {
 

@@ -27,6 +27,7 @@ public class DashBoardActions {
     public void navigateToProfilePicture() {
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
         dashBoardPage.menuMyInfo.click();
+ 
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.Profile));
         dashBoardPage.Profile.click();
     }
