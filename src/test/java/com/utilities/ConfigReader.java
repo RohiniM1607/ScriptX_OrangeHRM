@@ -24,13 +24,10 @@ public class ConfigReader {
     }
 
     public String getData(String key) {
-
         String value = properties.getProperty(key);
-
         if (value == null) {
             return "";
         }
-
         return value.trim();
     }
 }

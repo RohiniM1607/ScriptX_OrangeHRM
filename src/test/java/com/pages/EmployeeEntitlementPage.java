@@ -114,7 +114,7 @@ public class EmployeeEntitlementPage extends BasePage {
     public void selectLeavePeriod(String leavePeriod) {
         helper.clickElement(leavePeriodDropdown);
 
-        By optionLocator = By.xpath("//div[@role='listbox']//span[text()='" + leavePeriod + "']");
+        By optionLocator = By.xpath("(//div[@class='oxd-select-text-input'])[2]");
         WebElement option = helper.waitForElementLocated(optionLocator);
 
         js.executeScript("arguments[0].scrollIntoView(true);", option);
