@@ -1,4 +1,5 @@
- Feature: Reshma_13May2026_ScriptX_OrangeHRM File for PersonalDetails
+ @Reshma
+ Feature: Reshma_15May2026_ScriptX_OrangeHRM File for PersonalDetails
 
   Background:
     Given Employee is on OrangeHRM login page
@@ -8,7 +9,7 @@
     And Employee clicks on login button
     And the Employee is on the Dashboard page
 
-  @Reshma
+  @Reshmavalid 
   Scenario: Update personal details with valid data
     When Employee navigates to My Info page
     And Employee updates personal details with following data
@@ -17,7 +18,7 @@
     And Employee clicks on Save button
     Then Personal details should be updated successfully
     
-  @InvalidReshma
+  @InvalidReshma 
   Scenario: Edit personal details without saving changes
     When Employee moves to My Info page
     And Employee edit personal details with following data

@@ -27,6 +27,7 @@ public class DashBoardActions {
     public void navigateToProfilePicture() {
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
         dashBoardPage.menuMyInfo.click();
+ 
         wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.Profile));
         dashBoardPage.Profile.click();
     }
@@ -35,5 +36,11 @@ public class DashBoardActions {
         wait.until(ExpectedConditions.visibilityOf(dashBoardPage.dashboardHeader));
         return dashBoardPage.dashboardHeader.isDisplayed();
     }
-
+    
+    public void navigateToContactDetails() {
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
+        dashBoardPage.menuMyInfo.click();
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuContactDetails));
+        dashBoardPage.menuContactDetails.click();
+    }
 }
