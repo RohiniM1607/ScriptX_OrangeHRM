@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 @Reshma
+>>>>>>> 15a3839f2a1977048e179f59319bab79736e2829
 Feature: Reshma_19May2026_ScriptX_OrangeHRM File for ContactDetails
 
   Background:
@@ -10,7 +13,11 @@ Feature: Reshma_19May2026_ScriptX_OrangeHRM File for ContactDetails
     And the Employee is on the Contact Details Dashboard page
 
   @ReshmaContactDetails
+<<<<<<< HEAD
+  Scenario: Update contact details and add attachment successfully
+=======
    Scenario: Update contact details and add attachment successfully
+>>>>>>> 15a3839f2a1977048e179f59319bab79736e2829
     When the Employee navigates to Contact Details page
     And Employee updates contact details from test data
     And Employee clicks on the Contact Details Save button
