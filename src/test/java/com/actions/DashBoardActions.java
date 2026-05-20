@@ -16,7 +16,7 @@ public class DashBoardActions {
 
     public DashBoardActions() {
         dashBoardPage = new DashBoardEmployeePage();
-        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(30));
+        wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(20));
     }
 
     public void navigateToMyInfo() {
@@ -35,5 +35,11 @@ public class DashBoardActions {
         wait.until(ExpectedConditions.visibilityOf(dashBoardPage.dashboardHeader));
         return dashBoardPage.dashboardHeader.isDisplayed();
     }
-
+    
+    public void navigateToContactDetails() {
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuMyInfo));
+        dashBoardPage.menuMyInfo.click();
+        wait.until(ExpectedConditions.elementToBeClickable(dashBoardPage.menuContactDetails));
+        dashBoardPage.menuContactDetails.click();
+    }
 }

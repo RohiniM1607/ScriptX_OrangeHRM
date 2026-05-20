@@ -5,7 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-		features = "src/test/resources/features/CreateEmployee.feature", 
+
+		features = "src/test/resources/features/PIM.feature", 
 
 
 		glue = { "com.stepdefinitions","com.hooks" }, 
@@ -15,8 +16,8 @@ import io.cucumber.testng.CucumberOptions;
 						"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm" },
 
 		monochrome = true,
-
-		publish = true)
+		publish = true
+		)
 
 public class TestRunner extends AbstractTestNGCucumberTests {
 
