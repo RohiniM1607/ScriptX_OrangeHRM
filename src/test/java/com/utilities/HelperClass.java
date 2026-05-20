@@ -14,7 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -25,13 +25,29 @@ public class HelperClass {
     public static WebDriver driver;
     private static final Logger logger = LogManager.getLogger(HelperClass.class);
 
-    public void setupBrowser(String url) {
+    public void setupBrowser(String url, String headless) {
 
-        logger.info("Launching Chrome browser");
-        driver = new ChromeDriver();
+        ChromeOptions options = new ChromeOptions();
 
-        logger.info("Maximize the Browser window");
-        driver.manage().window().maximize();
+        if (headless.equalsIgnoreCase("true")) {
+
+            logger.info("Launching Chrome browser in headless mode");
+
+            options.addArguments("--headless=new");
+            options.addArguments("--window-size=1920,1080");
+
+        } 
+        else {
+
+            logger.info("Launching Chrome browser in normal GUI mode");
+        }
+
+        driver = new ChromeDriver(options);
+
+        if (!headless.equalsIgnoreCase("true")) {
+            logger.info("Maximize the Browser window");
+            driver.manage().window().maximize();
+        }
 
         logger.info("Applying implicit wait");
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
