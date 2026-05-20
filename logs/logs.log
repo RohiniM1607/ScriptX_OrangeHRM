@@ -3079,3 +3079,29 @@
 [INFO ] 2026-05-20 00:40:26.276 [main] Hooks - Ending Scenario: Changing the profile picture without saving
 [INFO ] 2026-05-20 00:40:26.276 [main] HelperClass - Scenario passed: Changing the profile picture without saving
 [INFO ] 2026-05-20 00:40:26.276 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 07:03:04.023 [main] Hooks - Starting Scenario: Upload profile picture successfully
+[INFO ] 2026-05-20 07:03:04.027 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 07:03:10.994 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 07:03:11.076 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 07:03:16.147 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-20 07:03:16.147 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 07:03:16.763 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-20 07:03:16.763 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 07:03:16.945 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 07:03:16.946 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 07:03:22.769 [main] Hooks - Ending Scenario: Upload profile picture successfully
+[INFO ] 2026-05-20 07:03:22.771 [main] HelperClass - Scenario passed: Upload profile picture successfully
+[INFO ] 2026-05-20 07:03:22.771 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 07:03:23.125 [main] Hooks - Starting Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-20 07:03:23.125 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 07:03:24.173 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 07:03:24.260 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 07:03:31.218 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-20 07:03:31.218 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 07:03:31.836 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-20 07:03:31.837 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 07:03:32.021 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 07:03:32.021 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 07:03:46.830 [main] Hooks - Ending Scenario: Changing the profile picture without saving
+[INFO ] 2026-05-20 07:03:46.830 [main] HelperClass - Scenario passed: Changing the profile picture without saving
+[INFO ] 2026-05-20 07:03:46.831 [main] HelperClass - Closing browser

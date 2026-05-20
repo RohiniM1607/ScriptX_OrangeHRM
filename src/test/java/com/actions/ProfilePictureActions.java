@@ -3,7 +3,6 @@ package com.actions;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -23,6 +22,7 @@ public class ProfilePictureActions {
 
     public void uploadProfilePicture(String relativePath) {
         String absolutePath = System.getProperty("user.dir") + relativePath;
+
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
         profilePicturePage.fileInput.sendKeys(absolutePath);
     }
@@ -33,8 +33,7 @@ public class ProfilePictureActions {
     }
 
     public String getSuccessMessage() {
-        return wait.until(ExpectedConditions.visibilityOf(profilePicturePage.txtSuccessMessage))
-                .getText().trim();
+        return wait.until(ExpectedConditions.visibilityOf(profilePicturePage.txtSuccessMessage)).getText().trim();
     }
 
     public boolean isSuccessMessageDisplayed() {
