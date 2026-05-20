@@ -19,12 +19,16 @@ public class Hooks {
     @Before
     public void setup(Scenario scenario) {
     	logger.info("Starting Scenario: " + scenario.getName());
-        helper.setupBrowser(config.getData("url"));
+
+        String url = config.getData("url");
+        String headless = config.getData("headless");
+
+        helper.setupBrowser(url, headless);
     }
 
     @After
     public void tearDown(Scenario scenario) {
     	logger.info("Ending Scenario: " + scenario.getName());
         helper.tearDown(scenario);
-    }
+    }	
 }
