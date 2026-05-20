@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/Add_leave_entitlement.feature",
         glue = {
                 "com.stepdefinitions",
                 "com.hooks"
@@ -18,7 +18,7 @@ import io.cucumber.testng.CucumberOptions;
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
-        
+        tags="@myl",
         monochrome = true,
         publish = true
         )
