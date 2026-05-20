@@ -9,35 +9,36 @@ import org.testng.annotations.DataProvider;
 
 public class DP_Excel {
 
-    @DataProvider(name = "createUserWithoutMandatoryFieldData")
-    public Object[][] createUserMandatoryFieldData() throws IOException {
-        return getExcelData("src/test/resources/TestData/CreateUserCredential.xlsx","Sheet1");
-    }
+	@DataProvider(name = "createUserWithoutMandatoryFieldData")
+	public Object[][] createUserMandatoryFieldData() throws IOException {
+		return getExcelData("src/test/resources/TestData/CreateUserCredential.xlsx", "Sheet1");
+	}
 
-    public Object[][] getExcelData(String fileName, String sheetName) throws IOException {
 
-        FileInputStream fis = new FileInputStream(fileName);
-        XSSFWorkbook workbook = new XSSFWorkbook(fis);
-        XSSFSheet sheet = workbook.getSheet(sheetName);
+	public Object[][] getExcelData(String fileName, String sheetName) throws IOException {
 
-        XSSFRow row = sheet.getRow(0);
+		FileInputStream fis = new FileInputStream(fileName);
+		XSSFWorkbook workbook = new XSSFWorkbook(fis);
+		XSSFSheet sheet = workbook.getSheet(sheetName);
 
-        int rows = sheet.getPhysicalNumberOfRows();
-        int cols = row.getPhysicalNumberOfCells();
+		XSSFRow row = sheet.getRow(0);
 
-        Object[][] data = new Object[rows - 1][cols];
+		int rows = sheet.getPhysicalNumberOfRows();
+		int cols = row.getPhysicalNumberOfCells();
 
-        for (int i = 1; i < rows; i++) {
-            row = sheet.getRow(i);
-            for (int j = 0; j < cols; j++) {
-                Cell cell = row.getCell(j);
-                data[i - 1][j] = (cell != null) ? cell.toString() : "";
-            }
-        }
+		Object[][] data = new Object[rows - 1][cols];
 
-        workbook.close();
-        fis.close();
+		for (int i = 1; i < rows; i++) {
+			row = sheet.getRow(i);
+			for (int j = 0; j < cols; j++) {
+				Cell cell = row.getCell(j);
+				data[i - 1][j] = (cell != null) ? cell.toString() : "";
+			}
+		}
 
-        return data;
-    }
+		workbook.close();
+		fis.close();
+
+		return data;
+	}
 }
