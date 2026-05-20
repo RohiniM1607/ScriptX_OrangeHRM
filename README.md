@@ -1,307 +1,151 @@
-# 🧪 OrangeHRM Automation Testing Framework
+# OrangeHRM Automation Project
 
-Automation testing framework for the [OrangeHRM Demo Application](https://opensource-demo.orangehrmlive.com/?utm_source=chatgpt.com) using **Selenium WebDriver**, **TestNG**, **Cucumber BDD**, and **Maven**.
+## Project Overview
 
-This framework automates major modules of OrangeHRM including:
+This project is an automation testing framework developed for the OrangeHRM web application.  
+It automates important HRM functionalities such as admin login, employee creation, leave entitlement, leave approval or rejection, profile picture upload, and employee search.
 
-* Login
-* PIM (Employee Management)
-* Admin Management
-* Leave Management
-* My Information
+The project is developed using Java, Selenium WebDriver, Cucumber, TestNG/JUnit, and follows the Page Object Model design pattern. Jenkins is used for continuous integration, and Git/GitHub is used for version control.
 
 ---
 
-# 🚀 Tech Stack
+Tools and Technologies Used
 
-| Technology         | Usage                       |
-| ------------------ | --------------------------- |
-| Java               | Programming Language        |
-| Selenium WebDriver | UI Automation               |
-| TestNG             | Test Execution              |
-| Cucumber BDD       | Behavior Driven Development |
-| Maven              | Build Management            |
-| Extent Reports     | Reporting                   |
-| Jenkins            | CI/CD Integration           |
-| Git & GitHub       | Version Control             |
+- Java
+- Selenium WebDriver
+- Cucumber
+- TestNG / JUnit
+- Page Object Model
+- Log4j
+- Jenkins
+- Git and GitHub
+- WebDriverManager
+- Maven
 
 ---
 
-# 📂 Project Structure
+## Project Structure
 
-```bash
-ScriptX_OrangeHRM/
+```text
+OrangeHRM_Automation_Project
 │
-├── src/
-│   ├── test/
-│   │   ├── java/
-│   │   │   ├── actions/
-│   │   │   ├── pages/
-│   │   │   ├── runners/
-│   │   │   ├── stepdefinitions/
-│   │   │   └── utilities/
-│   │   │
-│   │   └── resources/
-│   │       ├── features/
-│   │       └── config/
+├── src/test/java
+│   │
+│   ├── com.pages
+│   │   └── Page classes
+│   │
+│   ├── com.stepdefinitions
+│   │   └── Step definition classes
+│   │
+│   ├── com.actions
+│   │   └── Action classes
+│   │
+│   ├── com.hooks
+│   │   └── Hook class
+│   │
+│   ├── com.utilities
+│   │   ├── Helper classes
+│   │   ├── Config reader
+│   │   └── Screenshot utility
+│   │
+│   └── com.runner
+│       └── Test runner class
 │
-├── ExtentReports/
-├── test-output/
-├── pom.xml
-└── README.md
+├── src/test/resources
+│   │
+│   ├── features
+│   │   └── Feature files
+│   │
+│   ├── config.properties
+│   └── log4j2.xml
+│
+├── test-output
+│
+├── screenshots
+│
+└── pom.xml
 ```
+---
+Features Automated
+
+The following functionalities are automated in this project:
+
+Admin Login
+Add Leave Entitlement
+Approve / Reject Leave
+Profile Picture Upload
+Employee Entitlement Search
+Create Employee
+Search Employee
+Framework Design
 
 ---
 
-# ✅ Framework Features
+This automation framework follows the Page Object Model design pattern.
 
-* Page Object Model (POM)
-* Reusable Actions and Utilities
-* Data-Driven Testing
-* Cross Browser Support
-* Screenshot Capture on Failure
-* Extent Spark Reports
-* Jenkins Pipeline Integration
-* Cucumber HTML Reports
-* Maven Build Execution
+In this framework:
 
----
+Page classes contain web elements and locators.
+Action classes contain reusable methods to perform actions on web pages.
+Step definition classes connect feature file steps with automation code.
+Feature files contain test scenarios written in Gherkin language.
+Utility classes contain common reusable methods such as browser setup, waits, screenshots, and config reading.
+Hooks are used for setup and teardown activities.
+Runner class is used to execute the Cucumber test scenarios.
+Maven Dependencies
 
-# 🧩 Modules Covered
+The project uses Maven for dependency management.
+All required dependencies are maintained in the pom.xml file.
 
-## 🔐 Login Module
+--- 
 
-### Scenarios
+Common dependencies used in this project include:
 
-* Login with valid default admin credentials
-* Login with invalid username and password
-* Login with empty username and password
-* Login with valid username and invalid password
-* Login with invalid username and valid password
-* Verify logout functionality
-* Login with created employee credentials
-
----
-
-## 👨‍💼 PIM Module
-
-### Employee Creation
-
-* Create employee with valid first name and last name
-* Create employee with custom employee ID
-* Create employee without mandatory fields
-* Create employee with only first name
-* Create employee with special characters in name
-
-### Employee Search
-
-* Search employee by employee name
-* Search employee by employee ID
-* Search employee with invalid employee name
-* Search employee with invalid employee ID
+Selenium Java
+Cucumber Java
+Cucumber TestNG / JUnit
+WebDriverManager
+Log4j
+Apache Commons IO
+Prerequisites
 
 ---
 
-## 👨‍💻 Admin Management Module
+Before running this project, make sure the following software is installed:
 
-### User Credential Creation
+Java JDK
+Eclipse IDE / IntelliJ IDEA
+Maven
+Google Chrome Browser
+Git
+Jenkins
+How to Run the Project
+Run Using Eclipse / IntelliJ
+Open the project in Eclipse or IntelliJ IDEA.
+Make sure all Maven dependencies are downloaded.
+Open the runner class from the com.runner package.
+Right-click the runner class.
+Select Run As TestNG Test or Run As JUnit Test.
+Run Using Maven Command
 
-* Create ESS employee login credential
-* Create Admin login credential
-* Create user without mandatory fields
-* Create user with duplicate username
-* Create user with password mismatch
+Open the terminal inside the project folder and run:
 
-### Search User Credentials
-
-* Search user by username
-* Search user by user role
-* Search user by employee name
-* Search user by status
-* Search user with invalid username
-
----
-
-## 🏖️ Leave Management Module
-
-### Add Leave Entitlement
-
-* Add leave entitlement with valid details
-* Add entitlement without mandatory fields
-* Add entitlement with invalid employee name
-
-### Employee Entitlements
-
-* Search employee entitlement by employee name
-* Search employee entitlement by leave type
-* Search employee entitlement by leave period
-* Search entitlement with invalid employee name
-
-### Leave List
-
-* View all employee leave requests
-* Search leave request by employee name
-* Filter leave request by leave status
-* Filter leave request by date range
-
-### Approve / Reject Leave
-
-* Approve employee leave request
-* Reject employee leave request
-* Verify approved/rejected status
-
-### Assign Leave
-
-* Assign leave with valid details
-* Assign leave more than available balance
-* Verify assigned leave in leave list
-
-### My Entitlements
-
-* View entitlement by leave type and period
-* Verify entitlement after admin addition
-
-### Apply Leave
-
-* Apply leave with valid leave type and dates
-* Apply leave without mandatory fields
-* Apply leave with partial days
-
-### My Leave
-
-* Filter leave by status
-* Search leave after applying
-* Verify no matching records
-
-### Verify Leave Status
-
-* Verify approved/rejected/pending status
-* Verify status using filters
-
----
-
-## 👤 My Information Module
-
-### Personal Details
-
-* Update personal details with valid data
-* Edit personal details without saving
-
-### Profile Picture
-
-* Upload profile picture
-* Change profile picture without saving
-
-### Contact Details
-
-* Update contact details
-* Add attachment in contact details
-
----
-
-# 🧪 Test Execution
-
-## Run Using Maven
-
-```bash
 mvn clean test
-```
+Run Using Jenkins
+Open Jenkins.
+Create a new Jenkins job.
+Select Pipeline project.
+Connect the GitHub repository.
+Add the Jenkins pipeline script.
+Save the job.
+Click Build Now.
+Check the console output for execution results.
+Reports and Screenshots
 
 ---
 
-## Run Specific Test Runner
+After test execution:
 
-```bash
-mvn test -Dcucumber.filter.tags="@ValidLogin"
-```
-
----
-
-# 📊 Reports
-
-## Extent Spark Report
-
-Generated under:
-
-```bash
-/ExtentReports/SparkReport/
-```
-
-## TestNG Report
-
-Generated under:
-
-```bash
-/test-output/
-```
-
----
-
-# ⚙️ Jenkins Integration
-
-This project supports Jenkins CI/CD pipeline execution.
-
-### Jenkins Stages
-
-* Workspace Cleanup
-* Checkout Source Code
-* Maven Build
-* Test Execution
-* Report Publishing
-
----
-
-# 👥 Team Members
-
-| Module           | Assigned To         |
-| ---------------- | ------------------- |
-| Login            | Jagadeep            |
-| PIM              | Jagadeep            |
-| Admin Management | Rohini              |
-| Leave Management | Rohini / Mylambigai |
-| My Information   | Reshma              |
-
----
-
-# 📌 Prerequisites
-
-Make sure the following are installed:
-
-* Java 17+
-* Maven
-* Chrome Browser
-* ChromeDriver
-* Git
-* Jenkins
-
----
-
-# 🔧 Setup Instructions
-
-## Clone Repository
-
-```bash
-git clone <repository-url>
-```
-
-## Navigate to Project
-
-```bash
-cd ScriptX_OrangeHRM
-```
-
-## Install Dependencies
-
-```bash
-mvn clean install
-```
-
----
-
-# 📷 Reporting & Screenshots
-
-* Failed test screenshots are captured automatically.
-* Extent Spark Report provides detailed execution logs.
-* Cucumber step results are integrated into reports.
-
----
+Test reports are generated inside the test-output folder.
+Screenshots are stored inside the screenshots folder.
+Screenshots are captured for failed test scenarios or required validation points.
