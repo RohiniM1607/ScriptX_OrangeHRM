@@ -62,8 +62,7 @@ public class PersonalDetailsActions {
 
     public String successisDisplayed() {
         WebDriverWait MWait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
-        WebElement msg = MWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]"))
-);
+        WebElement msg = MWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class,'oxd-toast-content')]//p[1]")));
         return msg.getText().trim();
     }
 

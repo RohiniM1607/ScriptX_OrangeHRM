@@ -3105,3 +3105,65 @@
 [INFO ] 2026-05-20 07:03:46.830 [main] Hooks - Ending Scenario: Changing the profile picture without saving
 [INFO ] 2026-05-20 07:03:46.830 [main] HelperClass - Scenario passed: Changing the profile picture without saving
 [INFO ] 2026-05-20 07:03:46.831 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 15:52:59.422 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-20 15:52:59.425 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 15:53:01.136 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 15:53:01.186 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 15:53:01.194 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 15:53:04.755 [main] ContactDetailsStepDefinition - Navigating to OrangeHRM login page for Contact Details scenario
+[INFO ] 2026-05-20 15:53:04.780 [main] ContactDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-20 15:53:04.780 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-20 15:53:04.780 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:53:05.710 [main] ContactDetailsStepDefinition - Entering password
+[INFO ] 2026-05-20 15:53:05.711 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-20 15:53:05.711 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 15:53:05.848 [main] ContactDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-20 15:53:05.849 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 15:53:05.849 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 15:53:05.954 [main] ContactDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-05-20 15:53:07.864 [main] ContactDetailsStepDefinition - Dashboard loaded successfully
+[INFO ] 2026-05-20 15:53:07.867 [main] ContactDetailsStepDefinition - Navigating to Contact Details page via My Info
+[INFO ] 2026-05-20 15:53:10.568 [main] ContactDetailsStepDefinition - Successfully landed on the Contact Details page
+[INFO ] 2026-05-20 15:53:10.570 [main] ContactDetailsStepDefinition - Filling contact details fields using data from testData.properties
+[INFO ] 2026-05-20 15:53:24.298 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[ERROR] 2026-05-20 15:53:24.299 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-20 15:53:24.299 [main] HelperClass - Scenario failed: Update contact details and add attachment successfully
+[INFO ] 2026-05-20 15:53:24.299 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-20 15:53:24.564 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Update_contact_details_and_add_attachment_successfully.png
+[INFO ] 2026-05-20 15:53:24.564 [main] HelperClass - Closing browser
+[INFO ] 2026-05-20 16:00:06.682 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-20 16:00:06.685 [main] HelperClass - Launching Chrome browser
+[INFO ] 2026-05-20 16:00:08.175 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-20 16:00:08.280 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-20 16:00:08.289 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-20 16:00:12.234 [main] ContactDetailsStepDefinition - Navigating to OrangeHRM login page for Contact Details scenario
+[INFO ] 2026-05-20 16:00:12.258 [main] ContactDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-20 16:00:12.258 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-20 16:00:12.258 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:00:12.862 [main] ContactDetailsStepDefinition - Entering password
+[INFO ] 2026-05-20 16:00:12.862 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-20 16:00:12.862 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-20 16:00:13.011 [main] ContactDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-20 16:00:13.011 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-20 16:00:13.011 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-20 16:00:13.112 [main] ContactDetailsStepDefinition - Verifying that the Dashboard is displayed after login
+[INFO ] 2026-05-20 16:00:14.604 [main] ContactDetailsStepDefinition - Dashboard loaded successfully
+[INFO ] 2026-05-20 16:00:14.607 [main] ContactDetailsStepDefinition - Navigating to Contact Details page via My Info
+[INFO ] 2026-05-20 16:00:17.051 [main] ContactDetailsStepDefinition - Successfully landed on the Contact Details page
+[INFO ] 2026-05-20 16:00:17.052 [main] ContactDetailsStepDefinition - Filling contact details fields using data from testData.properties
+[INFO ] 2026-05-20 16:00:29.778 [main] ContactDetailsStepDefinition - All contact detail fields filled successfully
+[INFO ] 2026-05-20 16:00:29.781 [main] ContactDetailsStepDefinition - Clicking Save button to save contact details
+[INFO ] 2026-05-20 16:00:29.894 [main] ContactDetailsStepDefinition - Verifying success message after saving contact details
+[INFO ] 2026-05-20 16:00:31.090 [main] ContactDetailsStepDefinition - Success message received: Success
+[INFO ] 2026-05-20 16:00:31.090 [main] ContactDetailsStepDefinition - Contact details updated successfully as expected
+[INFO ] 2026-05-20 16:00:31.097 [main] ContactDetailsStepDefinition - Clicking the Add Attachment icon to open the attachment section
+[INFO ] 2026-05-20 16:00:31.212 [main] ContactDetailsStepDefinition - Attachment section opened and file input is ready
+[INFO ] 2026-05-20 16:00:31.215 [main] ContactDetailsStepDefinition - Uploading attachment file from resources folder
+[INFO ] 2026-05-20 16:00:31.258 [main] ContactDetailsStepDefinition - Attachment file uploaded successfully
+[INFO ] 2026-05-20 16:00:31.260 [main] ContactDetailsStepDefinition - Clicking Save button to confirm the attachment upload
+[INFO ] 2026-05-20 16:00:31.358 [main] ContactDetailsStepDefinition - Verifying success message after attachment upload
+[INFO ] 2026-05-20 16:00:31.386 [main] ContactDetailsStepDefinition - Success message received: Success
+[INFO ] 2026-05-20 16:00:31.387 [main] ContactDetailsStepDefinition - Attachment uploaded successfully as expected
+[INFO ] 2026-05-20 16:00:31.388 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-20 16:00:31.389 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-05-20 16:00:31.389 [main] HelperClass - Closing browser
