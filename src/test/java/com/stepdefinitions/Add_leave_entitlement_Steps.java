@@ -2,6 +2,7 @@ package com.stepdefinitions;
 
 import com.actions.Add_leave_entitlement_action;
 import com.actions.LoginActions;
+import com.utilities.ConfigReader;
 
 import io.cucumber.java.en.*;
 
@@ -9,6 +10,7 @@ public class Add_leave_entitlement_Steps {
 
     LoginActions la;
     Add_leave_entitlement_action aa = new Add_leave_entitlement_action();
+    ConfigReader testData = new ConfigReader("testData.properties");
 
     @Given("Admin is on the Leave page")
     public void admin_is_on_the_leave_page() {
@@ -25,9 +27,12 @@ public class Add_leave_entitlement_Steps {
 
     @When("Admin enters valid employee leave entitlement details")
     public void admin_enters_valid_employee_leave_entitlement_details() {
-        aa.Name_field();
-        aa.leaveType_field();
-        aa.entitlement_field();
+    	String expectedType = testData.getData("expectedType");
+    	String entitlement = testData.getData("entitlement");
+    	String employeeName = testData.getData("employeeName");
+        aa.Name_field(employeeName);
+        aa.leaveType_field(expectedType);
+        aa.entitlement_field(entitlement);
     }
 
     @When("clicks on the Save button")
@@ -42,7 +47,9 @@ public class Add_leave_entitlement_Steps {
 
     @When("Admin enters {string}, {string}, {string} in input field")
     public void admin_enters_in_input_field(String EmployeeName, String LeaveType, String Entitlement) {
-       aa.blankField(EmployeeName,LeaveType, Entitlement);
+    	 // aa.Name_field(EmployeeName);
+         aa.leaveType_field(LeaveType);
+         aa.entitlement_field(Entitlement);
     }
 //    @When("Admin leaves the employee name field empty”")
 //    public void admin_leaves_the_employee_name_field_empty() {
