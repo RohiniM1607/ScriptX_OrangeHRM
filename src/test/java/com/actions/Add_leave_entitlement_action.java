@@ -89,15 +89,14 @@ public class Add_leave_entitlement_action {
 		ep.employee_name.sendKeys(employeeName);
 		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
 		wait.until(ExpectedConditions.invisibilityOf(ep.searching));
-		wait.until(ExpectedConditions.visibilityOfAllElements(ep.employeeSuggestions));
+		//wait.until(ExpectedConditions.visibilityOfAllElements(ep.employeeSuggestions));
 
-		for (WebElement suggestion : ep.employeeSuggestions) {
-			String suggestionName = suggestion.getText();
-			if (suggestionName.equalsIgnoreCase(employeeName)) {
-				suggestion.click();
+		for (WebElement option : ep.employeeSuggestions) {
+			String actualText = option.getText();
+			if (actualText.equalsIgnoreCase(employeeName)) {
+				option.click();
 				break;
 			}
 		}
-		
 	}
 }
