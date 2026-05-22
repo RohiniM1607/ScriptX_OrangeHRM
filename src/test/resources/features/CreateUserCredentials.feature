@@ -26,5 +26,6 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
   @Without_Mandatory_Field
   Scenario: Create user without mandatory fields 
   When user clicks on Add button 
-  And user clicks on Save button without entering mandatory fields 
+  And user enters user credential details from Excel file "CreateUserCredential"
+  And user clicks on Save button without entering mandatory fields
   Then required validation message should be displayed for mandatory fields
