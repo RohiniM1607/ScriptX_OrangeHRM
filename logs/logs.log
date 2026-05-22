@@ -8118,3 +8118,459 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-05-21 17:35:37.323 [TestNG-PoolService-2] HelperClass - Screenshot saved at: D:\EXPLEO - SmartCliff_Training\Project\5_AutomationTesting\target\screenshots\Create_user_login_credential.png
 [INFO ] 2026-05-21 17:35:37.324 [TestNG-PoolService-2] HelperClass - Closing browser
 >>>>>>> refs/remotes/origin/main
+[INFO ] 2026-05-22 15:13:29.746 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 15:13:29.766 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:13:43.971 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:13:44.050 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:13:44.060 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:14:02.783 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:14:02.841 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 15:14:02.841 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 15:14:02.842 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 15:14:03.514 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 15:14:03.515 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 15:14:03.515 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 15:14:03.837 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 15:14:03.837 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 15:14:03.837 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 15:14:04.169 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 15:14:34.805 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[ERROR] 2026-05-22 15:14:34.808 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-22 15:14:34.808 [main] HelperClass - Scenario failed: Add emergency contact with valid data
+[INFO ] 2026-05-22 15:14:34.808 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-22 15:14:35.455 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_emergency_contact_with_valid_data.png
+[INFO ] 2026-05-22 15:14:35.455 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:14:35.879 [main] Hooks - Starting Scenario: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 15:14:35.880 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:14:37.203 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:14:37.274 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:14:37.280 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:14:44.996 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:14:45.002 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 15:14:45.003 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 15:14:45.003 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 15:14:46.395 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 15:14:46.396 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 15:14:46.396 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 15:14:46.614 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 15:14:46.615 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 15:14:46.615 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 15:14:46.800 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 15:15:18.239 [main] Hooks - Ending Scenario: Add attachment in Emergency Contacts page
+[ERROR] 2026-05-22 15:15:18.241 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-22 15:15:18.241 [main] HelperClass - Scenario failed: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 15:15:18.241 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-22 15:15:18.572 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_attachment_in_Emergency_Contacts_page.png
+[INFO ] 2026-05-22 15:15:18.573 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:18:27.015 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 15:18:27.033 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:18:29.195 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:18:29.343 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:18:29.352 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:18:39.817 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:18:39.876 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 15:18:39.877 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 15:18:39.877 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 15:18:40.574 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 15:18:40.575 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 15:18:40.575 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 15:18:40.804 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 15:18:40.805 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 15:18:40.805 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 15:18:41.001 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 15:19:13.922 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[ERROR] 2026-05-22 15:19:13.925 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-22 15:19:13.926 [main] HelperClass - Scenario failed: Add emergency contact with valid data
+[INFO ] 2026-05-22 15:19:13.926 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-22 15:19:14.233 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_emergency_contact_with_valid_data.png
+[INFO ] 2026-05-22 15:19:14.238 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:19:14.632 [main] Hooks - Starting Scenario: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 15:19:14.633 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:19:15.963 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:19:16.049 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:19:16.055 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:19:26.504 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:19:26.511 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 15:19:26.512 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 15:19:26.512 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 15:19:27.387 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 15:19:27.388 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 15:19:27.388 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 15:19:27.629 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 15:19:27.629 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 15:19:27.629 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 15:19:28.645 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 15:19:33.306 [main] Hooks - Ending Scenario: Add attachment in Emergency Contacts page
+[ERROR] 2026-05-22 15:19:33.306 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-22 15:19:33.306 [main] HelperClass - Scenario failed: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 15:19:33.307 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-22 15:38:10.970 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:38:10.981 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:38:12.551 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:38:12.626 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:38:12.636 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:38:26.334 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:38:26.372 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:38:26.374 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:38:26.374 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:38:26.620 [main] Hooks - Starting Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:38:26.620 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:38:27.618 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:38:27.660 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:38:27.665 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:38:34.934 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:38:34.950 [main] Hooks - Ending Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:38:34.951 [main] HelperClass - Scenario passed: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:38:34.951 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:43:53.021 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:43:53.034 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:43:54.909 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:43:55.011 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:43:55.019 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:43:55.672 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:43:55.680 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:43:57.168 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:43:57.224 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:43:57.231 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:44:10.696 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:44:10.733 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:44:10.734 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:44:10.735 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:44:10.940 [main] Hooks - Starting Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:44:10.940 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:44:11.751 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:44:11.814 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:44:11.818 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:44:14.689 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:44:14.729 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:44:14.730 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:44:14.731 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:44:14.936 [main] Hooks - Starting Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:44:14.936 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:44:15.811 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:44:15.892 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:44:15.901 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:44:27.183 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:44:27.196 [main] Hooks - Ending Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:44:27.196 [main] HelperClass - Scenario passed: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:44:27.196 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:44:34.291 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 15:44:34.309 [main] Hooks - Ending Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:44:34.309 [main] HelperClass - Scenario passed: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:44:34.310 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:45:26.338 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:45:26.348 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:45:27.857 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:45:27.941 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:45:27.949 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:45:37.879 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:45:37.881 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 15:45:37.881 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 15:45:38.104 [main] Hooks - Starting Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:45:38.105 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 15:45:38.956 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 15:45:39.012 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 15:45:39.017 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 15:45:49.520 [main] Hooks - Ending Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:45:49.521 [main] HelperClass - Scenario passed: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 15:45:49.521 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:08:35.434 [main] Hooks - Starting Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 16:08:35.441 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:08:37.099 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:08:37.157 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:08:37.162 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:08:43.617 [main] ContactDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:08:43.644 [main] ContactDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:08:43.644 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:08:43.644 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:08:45.606 [main] ContactDetailsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:08:45.606 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:08:45.606 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:08:45.744 [main] ContactDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:08:45.744 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:08:45.744 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:08:45.857 [main] ContactDetailsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:08:49.873 [main] ContactDetailsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:08:49.875 [main] ContactDetailsStepDefinition - Navigating to Contact Details page from the Dashboard
+[INFO ] 2026-05-22 16:09:01.077 [main] ContactDetailsStepDefinition - Successfully landed on Contact Details page
+[INFO ] 2026-05-22 16:09:01.081 [main] ContactDetailsStepDefinition - Updating contact details from: test data
+[INFO ] 2026-05-22 16:09:18.634 [main] ContactDetailsStepDefinition - Contact details fields filled successfully from: test data
+[INFO ] 2026-05-22 16:09:18.637 [main] ContactDetailsStepDefinition - Clicking Save button to submit contact details
+[INFO ] 2026-05-22 16:09:18.760 [main] ContactDetailsStepDefinition - Verifying success message after saving contact details
+[INFO ] 2026-05-22 16:09:24.026 [main] ContactDetailsStepDefinition - Success message received: Success
+[INFO ] 2026-05-22 16:09:24.026 [main] ContactDetailsStepDefinition - Contact details updated successfully as expected
+[INFO ] 2026-05-22 16:09:24.028 [main] Hooks - Ending Scenario: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 16:09:24.030 [main] HelperClass - Scenario passed: Update contact details and add attachment successfully
+[INFO ] 2026-05-22 16:09:24.030 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:09:24.347 [main] Hooks - Starting Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 16:09:24.347 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:09:25.160 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:09:25.217 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:09:25.222 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:09:34.886 [main] ContactDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:09:34.888 [main] ContactDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:09:34.889 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:09:34.889 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:09:37.066 [main] ContactDetailsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:09:37.067 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:09:37.067 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:09:37.189 [main] ContactDetailsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:09:37.189 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:09:37.189 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:09:43.169 [main] ContactDetailsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:09:45.876 [main] ContactDetailsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:09:45.878 [main] ContactDetailsStepDefinition - Navigating to Contact Details page from the Dashboard
+[INFO ] 2026-05-22 16:09:55.091 [main] ContactDetailsStepDefinition - Successfully landed on Contact Details page
+[INFO ] 2026-05-22 16:09:55.093 [main] ContactDetailsStepDefinition - Clicking the Add Attachment icon
+[INFO ] 2026-05-22 16:09:56.674 [main] ContactDetailsStepDefinition - Add Attachment panel opened successfully
+[INFO ] 2026-05-22 16:09:56.676 [main] ContactDetailsStepDefinition - Uploading file: contact attachment
+[INFO ] 2026-05-22 16:09:56.740 [main] ContactDetailsStepDefinition - File uploaded successfully: contact attachment
+[INFO ] 2026-05-22 16:09:56.741 [main] ContactDetailsStepDefinition - Clicking Save button to save the attachment
+[INFO ] 2026-05-22 16:09:56.847 [main] ContactDetailsStepDefinition - Verifying success message after attachment upload
+[INFO ] 2026-05-22 16:09:58.734 [main] ContactDetailsStepDefinition - Success message received: Success
+[INFO ] 2026-05-22 16:09:58.734 [main] ContactDetailsStepDefinition - Attachment uploaded successfully as expected
+[INFO ] 2026-05-22 16:09:58.736 [main] Hooks - Ending Scenario: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 16:09:58.737 [main] HelperClass - Scenario passed: Upload attachment on Contact Details page
+[INFO ] 2026-05-22 16:09:58.737 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:10:16.837 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:10:16.846 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:10:18.265 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:10:18.329 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:10:18.334 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:10:26.087 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:10:26.112 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:10:26.113 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:10:26.113 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:10:26.658 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:10:26.658 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:10:26.658 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:10:26.788 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:10:26.788 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:10:26.788 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:10:28.220 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:10:28.685 [main] EmergencyContactsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:10:28.687 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-05-22 16:10:33.321 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-05-22 16:10:33.323 [main] EmergencyContactsStepDefinition - Clicking the Add Emergency Contact button
+[INFO ] 2026-05-22 16:10:45.238 [main] EmergencyContactsStepDefinition - Emergency Contact form opened
+[INFO ] 2026-05-22 16:10:45.240 [main] EmergencyContactsStepDefinition - Reading emergency contact data from Excel sheet: excel
+[DEBUG] 2026-05-22 16:10:45.561 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-22 16:10:45.564 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-22 16:10:46.151 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[ERROR] 2026-05-22 16:10:46.153 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-22 16:10:46.153 [main] HelperClass - Scenario failed: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:10:46.153 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-22 16:10:46.431 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_emergency_contact_with_valid_data.png
+[INFO ] 2026-05-22 16:10:46.431 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:10:46.679 [main] Hooks - Starting Scenario: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 16:10:46.679 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:10:47.511 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:10:47.567 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:10:47.571 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:10:53.259 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:10:53.262 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:10:53.262 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:10:53.262 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:10:53.774 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:10:53.774 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:10:53.774 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:10:53.906 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:10:53.906 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:10:53.906 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:10:55.077 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:10:55.514 [main] EmergencyContactsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:10:55.516 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-05-22 16:10:59.432 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-05-22 16:10:59.434 [main] EmergencyContactsStepDefinition - Clicking Add Attachment icon in Emergency Contacts
+[INFO ] 2026-05-22 16:11:00.059 [main] EmergencyContactsStepDefinition - Attachment upload panel opened
+[INFO ] 2026-05-22 16:11:00.062 [main] EmergencyContactsStepDefinition - Uploading attachment in: Emergency Contacts
+[INFO ] 2026-05-22 16:11:00.151 [main] EmergencyContactsStepDefinition - Attachment file sent successfully in: Emergency Contacts
+[INFO ] 2026-05-22 16:11:00.152 [main] EmergencyContactsStepDefinition - Clicking Save button for attachment
+[INFO ] 2026-05-22 16:11:00.308 [main] EmergencyContactsStepDefinition - Verifying success message after saving attachment
+[INFO ] 2026-05-22 16:11:00.723 [main] EmergencyContactsStepDefinition - Success message received: Success
+[INFO ] 2026-05-22 16:11:00.723 [main] EmergencyContactsStepDefinition - Attachment saved successfully
+[INFO ] 2026-05-22 16:11:00.724 [main] Hooks - Ending Scenario: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 16:11:00.725 [main] HelperClass - Scenario passed: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 16:11:00.725 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:15:00.859 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:15:00.868 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:15:13.635 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:15:13.687 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:15:13.694 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:15:57.373 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:15:57.400 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:15:57.400 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:15:57.400 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:15:59.056 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:15:59.056 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:15:59.057 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:15:59.177 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:15:59.177 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:15:59.177 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:15:59.300 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:16:02.116 [main] EmergencyContactsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:16:02.119 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-05-22 16:16:05.543 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-05-22 16:16:05.545 [main] EmergencyContactsStepDefinition - Clicking the Add Emergency Contact button
+[INFO ] 2026-05-22 16:16:18.482 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[ERROR] 2026-05-22 16:16:18.484 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-22 16:16:18.484 [main] HelperClass - Scenario failed: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:16:18.484 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-22 16:16:18.741 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_emergency_contact_with_valid_data.png
+[INFO ] 2026-05-22 16:16:18.742 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:20:30.767 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:20:30.777 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:20:47.332 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:20:47.406 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:20:47.413 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:21:04.391 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:21:04.416 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:21:04.416 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:21:04.416 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:21:05.278 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:21:05.278 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:21:05.278 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:21:05.404 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:21:05.404 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:21:05.404 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:21:07.760 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:21:08.302 [main] EmergencyContactsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:21:08.303 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-05-22 16:21:11.125 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-05-22 16:21:11.127 [main] EmergencyContactsStepDefinition - Clicking the Add Emergency Contact button
+[INFO ] 2026-05-22 16:21:22.807 [main] EmergencyContactsStepDefinition - Emergency Contact form opened
+[INFO ] 2026-05-22 16:21:22.810 [main] EmergencyContactsStepDefinition - Reading emergency contact data from Excel sheet: EmergencyContactsData
+[DEBUG] 2026-05-22 16:21:23.025 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-22 16:21:23.028 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-22 16:21:23.492 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[ERROR] 2026-05-22 16:21:23.493 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-22 16:21:23.494 [main] HelperClass - Scenario failed: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:21:23.494 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-22 16:21:23.742 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_emergency_contact_with_valid_data.png
+[INFO ] 2026-05-22 16:21:23.742 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:24:47.223 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:24:47.233 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:24:48.713 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:24:48.773 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:24:48.779 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:24:57.485 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:24:57.513 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:24:57.513 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:24:57.513 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:24:58.145 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:24:58.145 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:24:58.145 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:24:58.272 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:24:58.272 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:24:58.272 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:24:59.504 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:24:59.954 [main] EmergencyContactsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:24:59.956 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-05-22 16:25:02.836 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-05-22 16:25:02.839 [main] EmergencyContactsStepDefinition - Clicking the Add Emergency Contact button
+[INFO ] 2026-05-22 16:25:14.311 [main] EmergencyContactsStepDefinition - Emergency Contact form opened
+[INFO ] 2026-05-22 16:25:14.313 [main] EmergencyContactsStepDefinition - Reading emergency contact data from Excel sheet: EmergencyContactsData
+[DEBUG] 2026-05-22 16:25:14.521 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-22 16:25:14.525 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-22 16:25:14.955 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[ERROR] 2026-05-22 16:25:14.956 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-22 16:25:14.956 [main] HelperClass - Scenario failed: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:25:14.956 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-22 16:25:15.198 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_emergency_contact_with_valid_data.png
+[INFO ] 2026-05-22 16:25:15.198 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:31:11.528 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:31:11.538 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:31:13.053 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:31:13.126 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:31:13.134 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:31:26.269 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:31:26.295 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:31:26.295 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:31:26.295 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:31:26.915 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:31:26.915 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:31:26.915 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:31:27.189 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:31:27.189 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:31:27.189 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:31:28.485 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:31:29.081 [main] EmergencyContactsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:31:29.083 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-05-22 16:31:31.955 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-05-22 16:31:31.956 [main] EmergencyContactsStepDefinition - Clicking the Add Emergency Contact button
+[INFO ] 2026-05-22 16:31:43.074 [main] EmergencyContactsStepDefinition - Emergency Contact form opened
+[INFO ] 2026-05-22 16:31:43.077 [main] EmergencyContactsStepDefinition - Reading emergency contact data from Excel sheet: Sheet1
+[DEBUG] 2026-05-22 16:31:43.284 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-22 16:31:43.287 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-22 16:31:43.712 [main] EmergencyContactsStepDefinition - Filling emergency contact: Name=Renukkka R, Relationship=Spouse
+[INFO ] 2026-05-22 16:31:44.575 [main] EmergencyContactsStepDefinition - Emergency contact form filled successfully
+[INFO ] 2026-05-22 16:31:44.582 [main] EmergencyContactsStepDefinition - Clicking Save button for Emergency Contact
+[INFO ] 2026-05-22 16:31:44.686 [main] EmergencyContactsStepDefinition - Verifying success message after saving emergency contact
+[INFO ] 2026-05-22 16:31:45.692 [main] EmergencyContactsStepDefinition - Success message received: Success
+[INFO ] 2026-05-22 16:31:45.692 [main] EmergencyContactsStepDefinition - Emergency contact saved successfully
+[INFO ] 2026-05-22 16:31:45.694 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:31:45.695 [main] HelperClass - Scenario passed: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:31:45.696 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:32:20.132 [main] Hooks - Starting Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:32:20.143 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:32:21.660 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:32:21.733 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:32:21.743 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:32:58.441 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:32:58.466 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:32:58.466 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:32:58.466 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:33:00.652 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:33:00.654 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:33:00.654 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:33:00.795 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:33:00.795 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:33:00.795 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:33:04.030 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:33:05.021 [main] EmergencyContactsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:33:05.023 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-05-22 16:33:09.458 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-05-22 16:33:09.461 [main] EmergencyContactsStepDefinition - Clicking the Add Emergency Contact button
+[INFO ] 2026-05-22 16:33:21.171 [main] EmergencyContactsStepDefinition - Emergency Contact form opened
+[INFO ] 2026-05-22 16:33:21.173 [main] EmergencyContactsStepDefinition - Reading emergency contact data from Excel sheet: Sheet1
+[DEBUG] 2026-05-22 16:33:21.388 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2026-05-22 16:33:21.391 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2026-05-22 16:33:21.840 [main] EmergencyContactsStepDefinition - Filling emergency contact: Name=Renukkka R, Relationship=Spouse
+[INFO ] 2026-05-22 16:33:22.748 [main] EmergencyContactsStepDefinition - Emergency contact form filled successfully
+[INFO ] 2026-05-22 16:33:22.757 [main] EmergencyContactsStepDefinition - Clicking Save button for Emergency Contact
+[INFO ] 2026-05-22 16:33:22.864 [main] EmergencyContactsStepDefinition - Verifying success message after saving emergency contact
+[INFO ] 2026-05-22 16:33:23.384 [main] EmergencyContactsStepDefinition - Success message received: Success
+[INFO ] 2026-05-22 16:33:23.384 [main] EmergencyContactsStepDefinition - Emergency contact saved successfully
+[INFO ] 2026-05-22 16:33:23.386 [main] Hooks - Ending Scenario: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:33:23.387 [main] HelperClass - Scenario passed: Add emergency contact with valid data
+[INFO ] 2026-05-22 16:33:23.387 [main] HelperClass - Closing browser
+[INFO ] 2026-05-22 16:33:23.658 [main] Hooks - Starting Scenario: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 16:33:23.658 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-22 16:33:24.515 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-22 16:33:24.583 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-22 16:33:24.587 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-22 16:33:35.080 [main] EmergencyContactsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-22 16:33:35.084 [main] EmergencyContactsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-22 16:33:35.084 [main] HelperClass - Entering text: Renukkka R
+[INFO ] 2026-05-22 16:33:35.084 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:33:36.540 [main] EmergencyContactsStepDefinition - Entering password
+[INFO ] 2026-05-22 16:33:36.541 [main] HelperClass - Entering text: RenukkkaR@123
+[INFO ] 2026-05-22 16:33:36.541 [main] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-22 16:33:36.700 [main] EmergencyContactsStepDefinition - Clicking the Login button
+[INFO ] 2026-05-22 16:33:36.700 [main] HelperClass - Clicking on element
+[INFO ] 2026-05-22 16:33:36.700 [main] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-22 16:33:38.241 [main] EmergencyContactsStepDefinition - Verifying Dashboard is displayed
+[INFO ] 2026-05-22 16:33:38.898 [main] EmergencyContactsStepDefinition - Dashboard displayed successfully
+[INFO ] 2026-05-22 16:33:38.901 [main] EmergencyContactsStepDefinition - Navigating to Emergency Contacts page
+[INFO ] 2026-05-22 16:33:42.217 [main] EmergencyContactsStepDefinition - Successfully landed on Emergency Contacts page
+[INFO ] 2026-05-22 16:33:42.218 [main] EmergencyContactsStepDefinition - Clicking Add Attachment icon in Emergency Contacts
+[INFO ] 2026-05-22 16:33:43.266 [main] EmergencyContactsStepDefinition - Attachment upload panel opened
+[INFO ] 2026-05-22 16:33:43.268 [main] EmergencyContactsStepDefinition - Uploading attachment in: Emergency Contacts
+[INFO ] 2026-05-22 16:33:43.330 [main] EmergencyContactsStepDefinition - Attachment file sent successfully in: Emergency Contacts
+[INFO ] 2026-05-22 16:33:43.331 [main] EmergencyContactsStepDefinition - Clicking Save button for attachment
+[INFO ] 2026-05-22 16:33:43.496 [main] EmergencyContactsStepDefinition - Verifying success message after saving attachment
+[INFO ] 2026-05-22 16:33:45.388 [main] EmergencyContactsStepDefinition - Success message received: Success
+[INFO ] 2026-05-22 16:33:45.388 [main] EmergencyContactsStepDefinition - Attachment saved successfully
+[INFO ] 2026-05-22 16:33:45.390 [main] Hooks - Ending Scenario: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 16:33:45.390 [main] HelperClass - Scenario passed: Add attachment in Emergency Contacts page
+[INFO ] 2026-05-22 16:33:45.390 [main] HelperClass - Closing browser

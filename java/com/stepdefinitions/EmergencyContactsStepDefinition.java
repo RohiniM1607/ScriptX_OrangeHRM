@@ -78,11 +78,11 @@ public class EmergencyContactsStepDefinition {
         log.info("Emergency Contact form opened");
     }
 
-    @When("Employee fills emergency contact details from excel")
-    public void employee_fills_emergency_contact_details_from_excel() throws IOException {
-        log.info("Reading emergency contact data from Excel");
+    @When("Employee fills emergency contact details from {string}")
+    public void employee_fills_emergency_contact_details_from(String Sheet1) throws IOException {
+        log.info("Reading emergency contact data from Excel sheet: {}", Sheet1);
         DP_Excel excel = new DP_Excel();
-        Object[][] data = excel.getExcelData("src/test/resources/testdata/EmergencyContactsData.xlsx", "Sheet1");
+        Object[][] data = excel.getExcelData( "src/test/resources/testdata/EmergencyContactsData.xlsx", Sheet1);
         String name          = getCellValue(data[0][0]);
         String relationship  = getCellValue(data[0][1]);
         String homeTelephone = getCellValue(data[0][2]);
@@ -114,13 +114,14 @@ public class EmergencyContactsStepDefinition {
         emergencyContactsActions.clickAddAttachment();
         log.info("Attachment upload panel opened");
     }
-
-    @When("Employee uploads an attachment in Emergency Contacts from test data")
-    public void employee_uploads_an_attachment_in_emergency_contacts_from_test_data() {
-        log.info("Uploading attachment in Emergency Contacts");
+    
+    @When("Employee uploads an attachment in {string}")
+    public void employee_uploads_an_attachment_in(String section) {
+        log.info("Uploading attachment in: {}", section);
         emergencyContactsActions.uploadAttachment();
-        log.info("Attachment file sent successfully");
+        log.info("Attachment file sent successfully in: {}", section);
     }
+
 
     @When("Employee clicks on Save Attachment button in Emergency Contacts")
     public void employee_clicks_on_save_attachment_button_in_emergency_contacts() {

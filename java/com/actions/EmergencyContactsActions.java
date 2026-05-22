@@ -51,7 +51,6 @@ public class EmergencyContactsActions {
         String filePath = System.getProperty("user.dir") + "\\src\\test\\resources\\testfile1.txt";
         WebElement fileInput = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//input[@type='file']")));
         fileInput.sendKeys(filePath);
-
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[contains(text(),'testfile1.txt')]")));
     }
 
