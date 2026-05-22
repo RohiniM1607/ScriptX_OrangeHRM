@@ -2,7 +2,7 @@
 Feature: Reshma_15May2026_ScriptX_OrangeHRM File for PersonalDetails
   Background:
     Given Employee is on OrangeHRM login page
-    When Employee enters valid username and password
+    When Employee enters valid "username" and "password"
       | username  | password       |
       | Renukkka R | RenukkkaR@123 |
     And Employee clicks on login button
