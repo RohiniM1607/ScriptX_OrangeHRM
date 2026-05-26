@@ -1,4 +1,4 @@
-@Rohini
+@Rohini @CreateUserCredential
 Feature: Rohini_14May2026_OrangeHRM_Create User Credential
   Description:
   This feature verifies whether Admin can create user login credentials
@@ -10,8 +10,8 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
     And user clicks on login button
     Then user should be navigated to dashboard page
     Given user is on OrangeHRM Admin User Management page
-    
-  @Valid
+   
+  @Rohini @CreateCredential @Valid
   Scenario Outline: Create user login credential
     When user clicks on Add button
     And user enters user credential details "<role>" "<employeeName>" "<status>" "<username>" "<password>" "<confirmPassword>"
@@ -23,7 +23,7 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
       | ESS   | Employee 1   | Enabled | Employee_1 | Employee@123 | Employee@123    |
       | Admin | Admin 1      | Enabled | Admin_1    | Admin@123    | Admin@123       |
       
-  @Without_Mandatory_Field
+  @Rohini @CreateCredential @Invalid
   Scenario: Create user without mandatory fields 
   When user clicks on Add button 
   And user clicks on Save button without entering mandatory fields 

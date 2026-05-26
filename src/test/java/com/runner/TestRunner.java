@@ -19,8 +19,8 @@ import io.cucumber.testng.CucumberOptions;
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         monochrome = true,
-        publish = true,
-        tags = "@myl"
+        publish = true
+
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 

@@ -10,6 +10,8 @@ Feature: Jagadeep_15-05-2026_ScriptX_OrangeHRm_PIM_Functionality
       | firstName | lastName | employeeId | result   |
       | Jagadeep  | KC       | 9011       | success  |
       | Rohit     | Kumar    | 9012       | success  |
+      | Admin     | 1        | 1982       | success  |
+      | Employee  | 1        | 6734       | success  |
       | Anand     | Kumar    | 9013       | success  |
       |           |          |            | required |
       | Jaga@123  | K%C      | 9014       | success  |
