@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -20,7 +21,7 @@ public class Add_leave_entitlement_action {
 	HelperClass helper = new HelperClass();
 	WebDriverWait wait = new WebDriverWait(helper.getDriver(), Duration.ofSeconds(15));
 	Actions actions = new Actions(helper.getDriver());
-	ConfigReader testData = new ConfigReader("testData.properties");
+	JavascriptExecutor js = (JavascriptExecutor) helper.getDriver();
 
 	public void leavePage() {
 		helper.clickElement(ep.leave_page);
@@ -31,15 +32,13 @@ public class Add_leave_entitlement_action {
 		helper.clickElement(ep.add_entitlement);
 	}
 
-	public void leaveType_field() {
-		String expectedType = testData.getData("expectedType");
+	public void leaveType_field(String expectedType) {
 		helper.clickElement(ep.leave_type);
 		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
 		wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
 
 		for (WebElement option : ep.leaveTypeOptions) {
-			String actualText = option.getText().trim();
-			System.out.println("[LeaveType] Found option: " + actualText);
+			String actualText = option.getText();
 			if (actualText.equalsIgnoreCase(expectedType)) {
 				option.click();
 				break;
@@ -48,8 +47,7 @@ public class Add_leave_entitlement_action {
 
 	}
 
-	public void entitlement_field() {
-		String entitlement = testData.getData("entitlement");
+	public void entitlement_field(String entitlement) {
 		helper.clickElement(ep.entitlement);
 		ep.entitlement.sendKeys(entitlement);
 	}
@@ -69,43 +67,36 @@ public class Add_leave_entitlement_action {
 		Assert.assertTrue(ep.name_require_field.isDisplayed());
 	}
 
-	public void Name_field() {
-		helper.clickElement(ep.employee_name);
-		String employeeName = testData.getData("employeeName");
-		ep.employee_name.sendKeys(employeeName);
+//	public void blankField(String Name, String expectedType, String entitlement) {
+//		helper.clickElement(ep.leave_type);
+//		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
+//		wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
+//		
+//		for (WebElement option : ep.leaveTypeOptions) {
+//			String actualText = option.getText();
+//			System.out.println("[LeaveType] Found option: " + actualText);
+//			if (actualText.equalsIgnoreCase(expectedType)) {
+//				option.click();
+//				break;
+//			}
+//		}
+//		helper.clickElement(ep.entitlement);
+//		ep.entitlement.sendKeys(entitlement);
+//	}
 
+	public void Name_field(String employeeName) {
+		helper.clickElement(ep.employee_name);
+		ep.employee_name.sendKeys(employeeName);
 		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
 		wait.until(ExpectedConditions.invisibilityOf(ep.searching));
+		//wait.until(ExpectedConditions.visibilityOfAllElements(ep.employeeSuggestions));
 
-		wait.until(ExpectedConditions.visibilityOfAllElements(ep.employeeSuggestions));
-
-		boolean matched = false;
-		List<WebElement> suggestions = ep.employeeSuggestions;
-		for (WebElement suggestion : suggestions) {
-			if (suggestion.getText().contains(employeeName.toLowerCase())) {
-				suggestion.click();
-				actions.sendKeys(Keys.ARROW_DOWN).perform();
-				actions.sendKeys(Keys.ENTER).perform();
-				matched = true;
-				break;
-			}
-		}
-	}
-
-	public void blankField(String Name, String expectedType, String entitlement) {
-		helper.clickElement(ep.leave_type);
-		wait.until(ExpectedConditions.visibilityOf(ep.empOption));
-		wait.until(ExpectedConditions.visibilityOfAllElements(ep.leaveTypeOptions));
-		
-		for (WebElement option : ep.leaveTypeOptions) {
+		for (WebElement option : ep.employeeSuggestions) {
 			String actualText = option.getText();
-			System.out.println("[LeaveType] Found option: " + actualText);
-			if (actualText.equalsIgnoreCase(expectedType)) {
+			if (actualText.equalsIgnoreCase(employeeName)) {
 				option.click();
 				break;
 			}
 		}
-		helper.clickElement(ep.entitlement);
-		ep.entitlement.sendKeys(entitlement);
 	}
 }

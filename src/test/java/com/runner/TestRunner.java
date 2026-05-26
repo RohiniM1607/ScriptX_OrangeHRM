@@ -6,7 +6,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = "src/test/resources/features/",
+
+        features = "src/test/resources/features/CreateUserCredentials.feature",
         glue = {
                 "com.stepdefinitions",
                 "com.hooks"
@@ -20,12 +21,12 @@ import io.cucumber.testng.CucumberOptions;
         },
         monochrome = true,
         publish = true
-        //tags = "@EmployeeEntitlements"
+
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	@Override
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public Object[][] scenarios(){
 		return super.scenarios();
 	}
