@@ -1,5 +1,7 @@
 package com.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -49,4 +51,10 @@ public class ContactDetailsPage extends BasePage {
 
     @FindBy(xpath = "(//button[normalize-space()='Save'])[last()]")
     public WebElement btnAttachmentSave;
+    
+    @FindBy(xpath = "//div[@role='listbox']")
+    public WebElement dropdownListbox;
+    
+    @FindBy(xpath = "//div[@role='listbox']//span")
+    public List<WebElement> dropdownOptions;
 }

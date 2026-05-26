@@ -1,6 +1,7 @@
 package com.actions;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -26,8 +27,7 @@ public class ContactDetailsActions {
 
     public void updateContactDetails() {
 
-        wait.until(ExpectedConditions.invisibilityOfElementLocated(
-                By.cssSelector("div.oxd-loading-spinner-container")));
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.cssSelector("div.oxd-loading-spinner-container")));
 
         wait.until(ExpectedConditions.visibilityOf(contactDetailsPage.street1));
 
@@ -57,7 +57,14 @@ public class ContactDetailsActions {
         contactDetailsPage.zipCode.sendKeys(testData.getData("zip"));
 
         contactDetailsPage.country.click();
-        selectDropdown(testData.getData("country"));
+        wait.until(ExpectedConditions.visibilityOf(contactDetailsPage.dropdownListbox));
+        List<WebElement> countryOptions = wait.until(ExpectedConditions.visibilityOfAllElements(contactDetailsPage.dropdownOptions));
+        for (WebElement option : countryOptions) {
+            if (option.getText().trim().equalsIgnoreCase(testData.getData("country"))) {
+                option.click();
+                break;
+            }
+        }
 
         contactDetailsPage.homeTelephone.click();
         contactDetailsPage.homeTelephone.sendKeys(Keys.CONTROL + "a");
@@ -78,10 +85,6 @@ public class ContactDetailsActions {
         contactDetailsPage.workEmail.sendKeys(Keys.CONTROL + "a");
         contactDetailsPage.workEmail.sendKeys(Keys.DELETE);
         contactDetailsPage.workEmail.sendKeys(testData.getData("workEmail"));
-    }
-
-    public void selectDropdown(String value) {
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='listbox']//span[text()='" + value + "']"))).click();
     }
 
     public void clickSave() {

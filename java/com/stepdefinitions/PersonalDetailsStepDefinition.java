@@ -26,7 +26,7 @@ public class PersonalDetailsStepDefinition {
     LoginActions loginActions;
     DashBoardActions dashBoardActions;
     PersonalDetailsActions personalDetailsActions;
-    LoginPage loginPage;
+    LoginPage loginPage = new LoginPage();
     HelperClass helper = new HelperClass();
 
     @Given("Employee is on OrangeHRM login page")

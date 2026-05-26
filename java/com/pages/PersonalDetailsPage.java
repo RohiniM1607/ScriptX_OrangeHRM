@@ -1,5 +1,7 @@
 package com.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -40,4 +42,10 @@ public class PersonalDetailsPage extends BasePage {
 
     @FindBy(xpath = "//div[contains(@class,'oxd-toast-content')]//p[1]")
     public WebElement Ppsuccess;
+    
+    @FindBy(xpath = "//div[@role='listbox']")
+    public WebElement dropdownListbox;
+    
+    @FindBy(xpath = "//div[@role='listbox']//span")
+    public List<WebElement> dropdownOptions;
 }
