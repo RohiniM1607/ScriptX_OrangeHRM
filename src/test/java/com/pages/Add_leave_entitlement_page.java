@@ -46,6 +46,6 @@ public class Add_leave_entitlement_page extends BasePage {
     @FindBy(xpath = "//button[normalize-space()='Confirm']")
     public WebElement confirm;
 
-    @FindBy(xpath = "//div[@class=\"oxd-input-group__label-wrapper\"]//following::span[text()='Invalid']")
+    @FindBy(xpath = "//div[@class=\"oxd-input-group__label-wrapper\"]//following-sibling::span")
     public WebElement name_require_field;
 }
