@@ -34,7 +34,8 @@ public class PIMStepDefinition {
     }
 
     @When("admin creates employees with following data")
-    public void admin_creates_employees_with_following_data(DataTable dataTable) {
+    public void admin_creates_employees_with_following_data(DataTable dataTable)
+            throws InterruptedException {
 
         List<Map<String, String>> employees =
                 dataTable.asMaps(String.class, String.class);
@@ -42,21 +43,47 @@ public class PIMStepDefinition {
         for (Map<String, String> data : employees) {
 
             String firstName = data.get("firstName");
+
             String lastName = data.get("lastName");
-            String employeeId = data.get("employeeId");
+
+            String baseEmployeeId = data.get("employeeId");
+
             String expectedResult = data.get("result");
+
+            String employeeId = "";
+
+            if (!baseEmployeeId.isEmpty()) {
+
+                employeeId =
+                        baseEmployeeId
+                        + System.currentTimeMillis() % 1000;
+            }
+
+            System.out.println(
+                    "Creating Employee : "
+                    + firstName
+                    + " | "
+                    + employeeId
+            );
 
             pim.navigateToAddEmployee();
 
-            pim.enterEmployeeDetails(firstName, lastName, employeeId);
+            pim.enterEmployeeDetails(
+                    firstName,
+                    lastName,
+                    employeeId
+            );
 
             pim.clickSaveButton();
+
+            Thread.sleep(2000);
 
             if (expectedResult.equalsIgnoreCase("success")) {
 
                 Assert.assertTrue(
                         pim.verifyEmployeeCreated(),
-                        "Employee creation failed for : " + firstName
+                        "Employee creation failed for : "
+                                + firstName
                 );
 
             } else {
@@ -80,7 +107,8 @@ public class PIMStepDefinition {
     }
 
     @When("admin searches employee by employee name")
-    public void admin_searches_employee_by_employee_name() throws IOException {
+    public void admin_searches_employee_by_employee_name()
+            throws IOException {
 
         Object[][] data =
                 excel.getExcelData(
@@ -94,7 +122,8 @@ public class PIMStepDefinition {
     }
 
     @When("admin searches employee by employee ID")
-    public void admin_searches_employee_by_employee_id() throws IOException {
+    public void admin_searches_employee_by_employee_id()
+            throws IOException {
 
         Object[][] data =
                 excel.getExcelData(
