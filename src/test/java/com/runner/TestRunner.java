@@ -20,7 +20,6 @@ import io.cucumber.testng.CucumberOptions;
         },
         monochrome = true,
         publish = true
-        //tags = "@EmployeeEntitlements"
 )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
