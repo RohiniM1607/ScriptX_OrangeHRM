@@ -8902,3 +8902,55 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-05-27 00:00:48.209 [main] Hooks - Ending Scenario: Upload attachment on Contact Details page
 [INFO ] 2026-05-27 00:00:48.209 [main] HelperClass - Scenario passed: Upload attachment on Contact Details page
 [INFO ] 2026-05-27 00:00:48.209 [main] HelperClass - Closing browser
+[INFO ] 2026-05-27 19:09:28.211 [TestNG-PoolService-2] Hooks - Starting Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-27 19:09:28.211 [TestNG-PoolService-1] Hooks - Starting Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-27 19:09:28.230 [TestNG-PoolService-2] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-27 19:09:28.230 [TestNG-PoolService-1] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-27 19:09:29.833 [TestNG-PoolService-2] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-27 19:09:29.833 [TestNG-PoolService-1] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-27 19:09:29.880 [TestNG-PoolService-1] HelperClass - Applying implicit wait
+[INFO ] 2026-05-27 19:09:29.880 [TestNG-PoolService-2] HelperClass - Applying implicit wait
+[INFO ] 2026-05-27 19:09:29.888 [TestNG-PoolService-1] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-27 19:09:29.889 [TestNG-PoolService-2] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-27 19:09:35.534 [TestNG-PoolService-1] HelperClass - Entering text: Admin
+[INFO ] 2026-05-27 19:09:35.534 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-27 19:09:35.917 [TestNG-PoolService-1] HelperClass - Entering text: admin123
+[INFO ] 2026-05-27 19:09:35.917 [TestNG-PoolService-1] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-27 19:09:36.169 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:36.169 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:36.334 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:36.334 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:37.082 [TestNG-PoolService-2] HelperClass - Entering text: Admin
+[INFO ] 2026-05-27 19:09:37.082 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-27 19:09:37.950 [TestNG-PoolService-2] HelperClass - Entering text: admin123
+[INFO ] 2026-05-27 19:09:37.950 [TestNG-PoolService-2] HelperClass - Waiting for element visibility
+[INFO ] 2026-05-27 19:09:38.234 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:38.234 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:38.429 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:38.429 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:40.322 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:40.322 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:41.312 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:41.313 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:41.834 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:41.834 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:42.546 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:42.546 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:43.269 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:43.270 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:45.531 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:45.531 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:45.855 [TestNG-PoolService-2] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:09:45.855 [TestNG-PoolService-2] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:09:46.155 [TestNG-PoolService-2] Hooks - Ending Scenario: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-27 19:09:46.158 [TestNG-PoolService-2] HelperClass - Scenario passed: Add leave entitlement without mandatory fields
+[INFO ] 2026-05-27 19:09:46.158 [TestNG-PoolService-2] HelperClass - Closing browser
+[INFO ] 2026-05-27 19:10:03.013 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:10:03.015 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:10:03.688 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:10:03.688 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:10:03.837 [TestNG-PoolService-1] HelperClass - Clicking on element
+[INFO ] 2026-05-27 19:10:03.837 [TestNG-PoolService-1] HelperClass - Waiting for element to be clickable
+[INFO ] 2026-05-27 19:10:04.654 [TestNG-PoolService-1] Hooks - Ending Scenario: Add leave entitlement successfully
+[INFO ] 2026-05-27 19:10:04.655 [TestNG-PoolService-1] HelperClass - Scenario passed: Add leave entitlement successfully
+[INFO ] 2026-05-27 19:10:04.655 [TestNG-PoolService-1] HelperClass - Closing browser
