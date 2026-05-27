@@ -14,11 +14,11 @@ import io.cucumber.testng.CucumberOptions;
         },
         plugin = {
                 "pretty",
-                "html:target/CucumberReports/Cucumber.html",
+                "html:target/CucumberReports/Cucumber.html", 
                 "json:target/CucumberReports/Cucumber.json",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
                 "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
-        },
+        },  
         monochrome = true,
         publish = true,
         tags = "@myl"

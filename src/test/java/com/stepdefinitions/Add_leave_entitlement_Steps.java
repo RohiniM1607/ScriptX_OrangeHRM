@@ -30,7 +30,7 @@ public class Add_leave_entitlement_Steps {
     	String expectedType = testData.getData("expectedType");
     	String entitlement = testData.getData("entitlement");
     	String employeeName = testData.getData("employeeName");
-        aa.Name_field(employeeName);
+        aa.employeeNameField(employeeName);
         aa.leaveType_field(expectedType);
         aa.entitlement_field(entitlement);
     }
