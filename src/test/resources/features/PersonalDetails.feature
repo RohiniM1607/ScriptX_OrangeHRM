@@ -1,4 +1,3 @@
-@Reshma
 Feature: Reshma_15May2026_ScriptX_OrangeHRM File for PersonalDetails
   Background:
     Given Employee is on OrangeHRM login page
@@ -8,7 +7,7 @@ Feature: Reshma_15May2026_ScriptX_OrangeHRM File for PersonalDetails
     And Employee clicks on login button
     And the Employee is on the Dashboard page
 
-  @Reshmavalid
+  @Reshmavalid @Reshma
   Scenario: Update personal details with valid data
     When Employee navigates to My Info page
     And Employee updates personal details with following data
@@ -17,7 +16,7 @@ Feature: Reshma_15May2026_ScriptX_OrangeHRM File for PersonalDetails
     And Employee clicks on Save button
     Then Personal details should be updated successfully
 
-  @ReshmaProfilePicture
+  @ReshmaProfilePicture @Reshma
   Scenario: Upload profile picture successfully
     When Employee navigates to Profile Picture page
     And Employee uploads a profile picture with "\\src\\test\\resources\\profile.jpg"

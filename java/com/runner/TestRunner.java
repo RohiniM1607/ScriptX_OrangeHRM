@@ -7,6 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/features",
+        tags = "@Reshma",
         glue = {
                 "com.stepdefinitions",
                 "com.hooks"

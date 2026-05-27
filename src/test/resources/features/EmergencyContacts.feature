@@ -1,4 +1,3 @@
-@Reshma
 Feature: Reshma_21May2026_ScriptX_OrangeHRM File for EmergencyContacts
 
   Background:
@@ -9,7 +8,7 @@ Feature: Reshma_21May2026_ScriptX_OrangeHRM File for EmergencyContacts
     And the Employee clicks on the login link
     And Employee is on the Dashboard page
 
-  @ReshmaEmergencyContactAdd
+  @ReshmaEmergencyContactAdd @Reshma
   Scenario: Add emergency contact with valid data
     When Employee navigates to Emergency Contacts page
     And Employee clicks on the Add Emergency Contact icon
@@ -17,7 +16,7 @@ Feature: Reshma_21May2026_ScriptX_OrangeHRM File for EmergencyContacts
     And Employee clicks on Save Emergency Contact button
     Then the Emergency Contact should be saved successfully
 
-  @ReshmaEmergencyContactAttachment
+  @ReshmaEmergencyContactAttachment @Reshma
   Scenario: Add attachment in Emergency Contacts page
     When Employee navigates to Emergency Contacts page
     And Employee clicks on the Add Attachment icon in Emergency Contacts
