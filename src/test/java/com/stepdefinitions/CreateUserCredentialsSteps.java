@@ -1,6 +1,7 @@
 package com.stepdefinitions;
 
 import java.io.IOException;
+import java.util.List;
 
 import org.testng.Assert;
 
@@ -33,8 +34,8 @@ public class CreateUserCredentialsSteps {
 
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
     }
-    @When("user enters user credential details from Excel file {string}")
-    public void user_enters_user_credential_details_from_excel_file(String fileName) throws IOException {
+    @When("user clicks on Save button without entering mandatory fields")
+    public void user_clicks_on_save_button_without_entering_mandatory_fields() throws IOException {
 
         DP_Excel excel = new DP_Excel();
 
@@ -48,12 +49,9 @@ public class CreateUserCredentialsSteps {
         String confirmPassword = getCellValue(data[0][5]);
 
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
-    }
-    
-    @When("user clicks on Save button without entering mandatory fields")
-    public void user_clicks_on_save_button_without_entering_mandatory_fields() {
         createUserActions.clickSaveButton();
     }
+
 
     @When("user clicks on Save button")
     public void user_clicks_on_save_button() {
@@ -75,5 +73,10 @@ public class CreateUserCredentialsSteps {
             return "";
         }
         return value.toString().trim();
+    }
+    
+    @Then("required validation message should be displayed for duplicate username")
+    public void required_validation_message_should_be_displayed_for_duplicate_username() {
+    	createUserActions.verifyDuplicateUsernameValidationMessage();
     }
 }
