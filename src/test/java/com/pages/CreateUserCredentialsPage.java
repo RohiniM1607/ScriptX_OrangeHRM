@@ -58,6 +58,9 @@ public class CreateUserCredentialsPage extends BasePage {
     
     @FindBy(xpath = "//span[text()='Already exists']")
     public WebElement duplicateUsernameValidationMessage;
+    
+    @FindBy(xpath = "//span[text()='Passwords do not match']")
+    WebElement passwordMismatchValidationMessage;
 
     public void navigateToAdmin() {
         helper.clickElement(adminMenu);
@@ -148,5 +151,10 @@ public class CreateUserCredentialsPage extends BasePage {
     public boolean isDuplicateUsernameValidationMessageDisplayed() {
         helper.waitForElement(duplicateUsernameValidationMessage);
         return duplicateUsernameValidationMessage.isDisplayed();
+    }
+    
+    public boolean isPasswordMismatchValidationMessageDisplayed() {
+        helper.waitForElement(passwordMismatchValidationMessage);
+        return passwordMismatchValidationMessage.isDisplayed();
     }
 }
