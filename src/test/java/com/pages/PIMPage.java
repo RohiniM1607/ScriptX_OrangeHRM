@@ -28,8 +28,8 @@ public class PIMPage extends BasePage {
     @FindBy(xpath = "//button[@type='submit']")
     WebElement saveBtn;
 
-    @FindBy(xpath = "//h6[text()='Personal Details']")
-    WebElement personalDetailsHeader;
+    @FindBy(xpath = "//input[@name='firstName']")
+    WebElement personalDetailsForm;
 
     @FindBy(xpath = "//span[text()='Required']")
     List<WebElement> requiredMsg;
@@ -99,9 +99,9 @@ public class PIMPage extends BasePage {
 
         try {
 
-            helper.waitForElement(personalDetailsHeader);
+            helper.waitForElement(personalDetailsForm);
 
-            return personalDetailsHeader.isDisplayed();
+            return personalDetailsForm.isDisplayed();
 
         } catch (Exception e) {
 

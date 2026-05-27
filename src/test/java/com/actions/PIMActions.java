@@ -29,14 +29,6 @@ public class PIMActions extends BaseActions {
 
         pimPage.clickSaveButton();
 
-        try {
-
-            Thread.sleep(2000);
-
-        } catch (InterruptedException e) {
-
-            e.printStackTrace();
-        }
     }
 
     public boolean verifyEmployeeCreated() {
