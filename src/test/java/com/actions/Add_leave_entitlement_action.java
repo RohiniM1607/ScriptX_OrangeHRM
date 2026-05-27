@@ -1,18 +1,13 @@
 package com.actions;
 
 import java.time.Duration;
-import java.util.List;
-
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import com.pages.Add_leave_entitlement_page;
-import com.utilities.ConfigReader;
 import com.utilities.HelperClass;
 
 public class Add_leave_entitlement_action {
