@@ -6,7 +6,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-		features = "src/test/resources/features/Add_leave_entitlement.feature", 
+		features = "src/test/resources/features/", 
         tags = "@myl", 
         glue = {"com.stepdefinitions", "com.hooks" }, 
         plugin = { "pretty", "html:target/CucumberReports/Cucumber.html",
@@ -18,7 +18,7 @@ import io.cucumber.testng.CucumberOptions;
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	@Override
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}
