@@ -34,7 +34,7 @@ Feature: Rohini_14May2026_OrangeHRM_Create User Credential
   @Rohini @CreateCredential @Duplicate_UserName
   Scenario Outline: Create user with duplicate username
     When user clicks on Add button
-    And user enters user credential details by duplicate username "<role>" "<employeeName>" "<status>" "<username>" "<password>" "<confirmPassword>"
+    And user enters user credential details with duplicate username "<role>" "<employeeName>" "<status>" "<username>" "<password>" "<confirmPassword>"
     Then required validation message should be displayed for duplicate username
 
     Examples:

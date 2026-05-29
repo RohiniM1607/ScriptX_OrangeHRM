@@ -34,6 +34,13 @@ public class CreateUserCredentialsSteps {
 
         createUserActions.enterUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
     }
+    
+    @When("user enters user credential details with duplicate username {string} {string} {string} {string} {string} {string}")
+    public void user_enters_user_credential_details_with_duplicate_username(String role, String employeeName, String status,
+                                                    String username, String password, String confirmPassword) {
+
+        createUserActions.duplicateUserCredentialDetails(role, employeeName, status, username, password, confirmPassword);
+    }
     @When("user clicks on Save button without entering mandatory fields")
     public void user_clicks_on_save_button_without_entering_mandatory_fields() throws IOException {
 
