@@ -9316,3 +9316,29 @@ Session ID: 52f94ccb2a0925e256e03c17fc3e072f
 [INFO ] 2026-05-28 16:17:00.938 [main] HelperClass - Capturing screenshot for failed scenario
 [INFO ] 2026-05-28 16:17:01.175 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_dependent_details_with_valid_data.png
 [INFO ] 2026-05-28 16:17:01.175 [main] HelperClass - Closing browser
+[INFO ] 2026-05-29 09:40:19.042 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-05-29 09:40:19.058 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-29 09:40:24.648 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-29 09:40:24.693 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-29 09:40:24.707 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-29 09:40:29.819 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-29 09:40:29.857 [main] ContactDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-29 09:40:29.901 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[ERROR] 2026-05-29 09:40:29.903 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-29 09:40:29.903 [main] HelperClass - Scenario failed: Add dependent details with valid data
+[INFO ] 2026-05-29 09:40:29.903 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-29 09:40:30.257 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_dependent_details_with_valid_data.png
+[INFO ] 2026-05-29 09:40:30.258 [main] HelperClass - Closing browser
+[INFO ] 2026-05-29 09:40:30.698 [main] Hooks - Starting Scenario: Add dependent details with valid data
+[INFO ] 2026-05-29 09:40:30.699 [main] HelperClass - Launching Chrome browser in headless mode
+[INFO ] 2026-05-29 09:40:31.692 [main] HelperClass - Maximize the Browser window
+[INFO ] 2026-05-29 09:40:31.798 [main] HelperClass - Applying implicit wait
+[INFO ] 2026-05-29 09:40:31.814 [main] HelperClass - Opening URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+[INFO ] 2026-05-29 09:40:35.270 [main] PersonalDetailsStepDefinition - Navigating to OrangeHRM login page
+[INFO ] 2026-05-29 09:40:35.276 [main] ContactDetailsStepDefinition - Entering username: Renukkka R
+[INFO ] 2026-05-29 09:40:35.291 [main] Hooks - Ending Scenario: Add dependent details with valid data
+[ERROR] 2026-05-29 09:40:35.292 [main] HelperClass - Scenario failed. Taking screenshot.
+[ERROR] 2026-05-29 09:40:35.292 [main] HelperClass - Scenario failed: Add dependent details with valid data
+[INFO ] 2026-05-29 09:40:35.292 [main] HelperClass - Capturing screenshot for failed scenario
+[INFO ] 2026-05-29 09:40:35.470 [main] HelperClass - Screenshot saved at: C:\Users\Reshma\git\ScriptX_OrangeHRM\target\screenshots\Add_dependent_details_with_valid_data.png
+[INFO ] 2026-05-29 09:40:35.470 [main] HelperClass - Closing browser
