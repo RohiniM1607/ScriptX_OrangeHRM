@@ -3,18 +3,22 @@ package com.utilities;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -63,7 +67,7 @@ public class HelperClass {
 
 	public WebElement waitForElementLocated(By locator) {
 		logger.info("Waiting for element located by: " + locator);
-		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(20));
+		WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(40));
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
 
@@ -96,7 +100,8 @@ public class HelperClass {
 
 				String screenshotName = scenario.getName().replaceAll(" ", "_");
 				File source = ((TakesScreenshot) driver.get()).getScreenshotAs(OutputType.FILE);
-				File destination = new File(folder, screenshotName + ".png");
+				String timeStamp = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HHmmss"));
+				File destination = new File(folder,screenshotName + "_" + timeStamp + ".png");
 				FileUtils.copyFile(source, destination);
 				logger.info("Screenshot saved at: " + destination.getAbsolutePath());
 			} 
@@ -105,6 +110,14 @@ public class HelperClass {
 				e.printStackTrace();
 			}
 		}
+	}
+	
+	public void pressDownAndEnter(int count) {
+		Actions actions = new Actions(driver.get());
+	    for (int i = 0; i < count; i++) {
+	        actions.sendKeys(Keys.ARROW_DOWN).pause(Duration.ofMillis(500)).perform();
+	    }
+	    actions.sendKeys(Keys.ENTER).perform();
 	}
 
 	public void tearDown(Scenario scenario) {

@@ -4,69 +4,82 @@ import com.pages.PIMPage;
 
 public class PIMActions extends BaseActions {
 
-    PIMPage pimPage = new PIMPage();
+	PIMPage pimPage = new PIMPage();
 
-    public void navigateToAddEmployee() {
+	public void navigateToAddEmployee() {
 
-        pimPage.clickPIMMenu();
+		pimPage.clickPIMMenu();
 
-        pimPage.clickAddEmployee();
-    }
+		pimPage.clickAddEmployee();
+	}
 
-    public void enterEmployeeDetails(
-            String firstName,
-            String lastName,
-            String employeeId) {
+	public void enterEmployeeDetails(String firstName, String lastName, String employeeId) {
 
-        pimPage.enterFirstName(firstName);
+		pimPage.enterFirstName(firstName);
 
-        pimPage.enterLastName(lastName);
+		pimPage.enterLastName(lastName);
 
-        pimPage.enterEmployeeId(employeeId);
-    }
+		pimPage.enterEmployeeId(employeeId);
+	}
 
-    public void clickSaveButton() {
+	public void clickSaveButton() {
 
-        pimPage.clickSaveButton();
+		pimPage.clickSaveButton();
+	}
 
-    }
+	public boolean verifyEmployeeCreated() {
 
-    public boolean verifyEmployeeCreated() {
+		return pimPage.isPersonalDetailsDisplayed();
+	}
 
-        return pimPage.isPersonalDetailsDisplayed();
-    }
+	public boolean verifyRequiredMessage() {
 
-    public boolean verifyRequiredMessage() {
+		return pimPage.isRequiredMessageDisplayed();
+	}
 
-        return pimPage.isRequiredMessageDisplayed();
-    }
+	public void navigateToSearchEmployee() {
 
-    public void navigateToSearchEmployee() {
+		pimPage.clickPIMMenu();
+	}
 
-        pimPage.clickPIMMenu();
-    }
+	public void searchEmployeeByName(String employeeName) {
 
-    public void searchEmployeeByName(String employeeName) {
+		pimPage.enterSearchEmployeeName(employeeName);
 
-        pimPage.enterSearchEmployeeName(employeeName);
+		pimPage.clickSearchButton();
+	}
 
-        pimPage.clickSearchButton();
-    }
+	public void searchEmployeeById(String employeeId) {
 
-    public void searchEmployeeById(String employeeId) {
+		pimPage.enterSearchEmployeeId(employeeId);
 
-        pimPage.enterSearchEmployeeId(employeeId);
+		pimPage.clickSearchButton();
+	}
 
-        pimPage.clickSearchButton();
-    }
+	public boolean verifySearchSuccess() {
 
-    public boolean verifySearchSuccess() {
+		return pimPage.isSearchResultDisplayed();
+	}
 
-        return pimPage.isSearchResultDisplayed();
-    }
+	public boolean verifyNoRecordsFound() {
 
-    public boolean verifyNoRecordsFound() {
+		return pimPage.isNoRecordFoundDisplayed();
+	}
 
-        return pimPage.isNoRecordFoundDisplayed();
-    }
+	/**
+	 * Wait until PIM page is loaded
+	 */
+	public boolean verifyPIMPageLoaded() {
+
+		try {
+
+			pimPage.clickPIMMenu();
+
+			return true;
+
+		} catch (Exception e) {
+
+			return false;
+		}
+	}
 }
