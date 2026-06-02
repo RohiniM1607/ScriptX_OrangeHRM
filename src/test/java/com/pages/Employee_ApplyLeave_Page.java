@@ -18,20 +18,17 @@ public class Employee_ApplyLeave_Page extends BasePage {
     @FindBy(xpath = "//a[contains(@class,'oxd-topbar-body-nav-tab-item') and normalize-space()='Apply']")
     public WebElement applySubMenu;
  
-
-    @FindBy(xpath = "(//div[contains(@class,'oxd-select-text')])[1]")
-    public WebElement leaveTypeDropdown;
-
-    @FindBy(xpath = "//div[@class='oxd-select-dropdown']//span[not(@class)]")
+    
+    @FindBy(xpath = "//div[@role='listbox']//span")
     public List<WebElement> leaveTypeOptions;
 
     @FindBy(xpath = "//*[contains(text(),'Day(s)')]")
     public WebElement leaveBalanceText;
 
-    @FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[1]")
+    @FindBy(xpath = "(//input[@placeholder='yyyy-dd-mm'])[1]")
     public WebElement fromDateInput;
 
-    @FindBy(xpath = "(//input[@placeholder='yyyy-mm-dd'])[2]")
+    @FindBy(xpath = "(//input[@placeholder='yyyy-dd-mm'])[2]")
     public WebElement toDateInput;
 
     @FindBy(xpath = "//textarea[@placeholder='Type here']")
@@ -42,4 +39,16 @@ public class Employee_ApplyLeave_Page extends BasePage {
 
     @FindBy(xpath = "//div[contains(@class,'oxd-toast--success')]//p[2]")
     public WebElement successMsg;
+    
+    @FindBy(xpath = "//div[@role='listbox']")
+    public WebElement empOption;
+    
+    @FindBy(xpath = "//label[text()='Leave Type']/ancestor::div[contains(@class,'oxd-input-group')]//div[contains(@class,'oxd-select-text-input')]")
+    public WebElement leave_type;
+
+    @FindBy(xpath = "//div[contains(@class,'oxd-toast') and .//p[text()='Successfully Saved']]")
+    public WebElement confirm;
+    
+    @FindBy(xpath = "//button[@type='submit']")
+    public WebElement save;
 }

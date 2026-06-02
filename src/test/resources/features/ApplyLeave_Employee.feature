@@ -1,4 +1,4 @@
-Feature: Feature: Subhashree_13May2026_ScriptX_OrangeHRM File for ApplyLeave_Employee
+Feature:  Subhashree_13May2026_ScriptX_OrangeHRM File for ApplyLeave_Employee
 
 Description: Employee is applying the leave on the OrangeHRM Application
 
@@ -7,9 +7,11 @@ Background:
   And Employee is on the dashboard page
 
 @Subha
-Scenario: Verify leave balance reflects after admin sets entitlement
+Scenario Outline: Apply leave successfully
   When the user navigates to Apply Leave and selects "<leaveType>" leave type
-  Then correct leave balance should display for "<leaveType>"
+  And selects "<from date>" "<To date>"
+  And click on save button
+  Then the success message should display
 Examples:
-    | leaveType      |
-    | CAN - Vacation |
+    |leaveType      |from date  |To date    |
+    |CAN - Personal |2026-03-06 |2026-03-06 |
