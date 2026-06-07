@@ -12,8 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 				        "json:target/CucumberReports/Cucumber.json",
 				        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				        "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm" }, 
-        monochrome = true, 
-        publish = true)
+        monochrome = true)
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	@Override
